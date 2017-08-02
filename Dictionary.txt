@@ -1,0 +1,823 @@
+; Dictionary:Punjabi A Submitted
+; User:Parteek Kumar (parteek)
+; Date:02.08.2017 at 12:43:51
+[ਤਿੰਨ]{}"3"(LEX=U,POS=CDN,DIGIT)<eng,0,0>;
+[ਚਾਰ]{}"4"(LEX=U,POS=CDN,DIGIT)<eng,0,0>;
+[ਸੱਤ]{}"7"(LEX=U,POS=CDN,DIGIT)<eng,0,0>;
+[ਨੌ]{}"9"(LEX=U,POS=CDN,DIGIT,)<eng,0,0>;
+[ਉੱਨਤੀ]{}"29"(LEX=U,POS=CDN,DOUBLE)<eng,0,0>;
+[ਦੋ]{-1}"2"(LEX=U,POS=CDN,DIGIT)<eng,0,0>;
+#[ਵਿਚ]{}"in"(LEX=P,POS=PRE,rel=scn)<eng,0,0>;
+[ਉਸਦੀਆਂ]{}"00.@3.@male" (LEX=D,POS=POD)<eng,255,0>;
+[ਸਾਡੀਆਂ]{}"00.@1.@pl" (LEX=D,POS=POD)<eng,255,0>;
+[ਵਧੇਰੀਆਂ]{}"a lot of" (LEX=D,POS=QUA,att=@more)<eng,255,0>; originally @multal was there but it is changed for A1_167
+[ਮੇਰੀ]{}"00.@1" (LEX=R,POS=SPR,rel=pos)<eng,255,0>; mine is beautifulww
+[ਮੇਰੀਆਂ]{}"my"(LEX=D,POS=POD)<eng,255,0>;
+[ਦੋ]{-1}"2"(LEX=U,  POS=CDN,DIGIT)<eng,0,0>;
+[ਮੇਰੀਆਂ]{}"00.@1" (LEX=R,POS=SPR,firstperson,rel=pos)<eng,255,0>; my book
+[ਸਾਡੀਆਂ]{}"00.@1.@pl" (LEX=D,POS=POD)<eng,255,0>; our book
+[ਖ਼ਰਗੋਸ਼]{}"hare"(LEX=N,POS=NOU,NUM=SNG,GEN=MCL)<pun,0,0>;ਖ਼ਰਗੋਸ਼ ਅਤੇ ਕੱਛੂਕੁੰਮਾ
+[ਕੱਛੂਕੁੰਮਾ]{}"tortoise"(LEX=N,POS=NOU,NUM=SNG,CAS=NOM)<pun,0,0>;ਖ਼ਰਗੋਸ਼ ਅਤੇ ਕੱਛੂਕੁੰਮਾ
+[ਇਕ ਦਿਨ]{}"one day"(LEX=A,POS=AAV,rel=tim)<pun,0,0>;ਇਕ ਦਿਨ ਖ਼ਰਗੋਸ਼ ਨੇ ਕੱਛੂਕੁੰਮੇ ਦੇ ਛੋਟੇ ਪੈਰਾਂ ਅਤੇ ਹੌਲੀ ਚਾਲ ਦਾ ਮਜ਼ਾਕ ਉਡਾਇਆ।
+#[ਨੇ]{}""(LEX=P,POS=PST,rel=agt)<pun,0,0>;ਇਕ ਦਿਨ ਖ਼ਰਗੋਸ਼ ਨੇ ਕੱਛੂਕੁੰਮੇ ਦੇ ਛੋਟੇ ਪੈਰਾਂ ਅਤੇ ਹੌਲੀ ਚਾਲ ਦਾ ਮਜ਼ਾਕ ਉਡਾਇਆ।
+[ਦੇ]{}""(LEX=P,POS=PST,NUM=PLR,rel=mod)<pun,0,0>;ਇਕ ਦਿਨ ਖ਼ਰਗੋਸ਼ ਨੇ ਕੱਛੂਕੁੰਮੇ ਦੇ ਛੋਟੇ ਪੈਰਾਂ ਅਤੇ ਹੌਲੀ ਚਾਲ ਦਾ ਮਜ਼ਾਕ ਉਡਾਇਆ।
+[ਹੌਲੀ]{} "slow"(LEX=J,POS=ADJ,NUM=SNG)<pun,0,0>;ਇਕ ਦਿਨ ਖ਼ਰਗੋਸ਼ ਨੇ ਕੱਛੂਕੁੰਮੇ ਦੇ ਛੋਟੇ ਪੈਰਾਂ ਅਤੇ ਹੌਲੀ ਚਾਲ ਦਾ ਮਜ਼ਾਕ ਉਡਾਇਆ।
+[ਚਾਲ]{}"pace"(LEX=N,POS=NOU,NUM=SNG,GEN=FEM)<pun,0,0>;ਇਕ ਦਿਨ ਖ਼ਰਗੋਸ਼ ਨੇ ਕੱਛੂਕੁੰਮੇ ਦੇ ਛੋਟੇ ਪੈਰਾਂ ਅਤੇ ਹੌਲੀ ਚਾਲ ਦਾ ਮਜ਼ਾਕ ਉਡਾਇਆ।
+[ਮਜ਼ਾਕ ਉਡਾਇਆ]{}"ridicule"(LEX=V,POS=VER,ATE=PAS,NUM=SNG,GEN=MCL,TRA=TST)<pun,0,0>;ਇਕ ਦਿਨ ਖ਼ਰਗੋਸ਼ ਨੇ ਕੱਛੂਕੁੰਮੇ ਦੇ ਛੋਟੇ ਪੈਰਾਂ ਅਤੇ ਹੌਲੀ ਚਾਲ ਦਾ ਮਜ਼ਾਕ ਉਡਾਇਆ।
+[ਜਵਾਬ ਦਿੱਤਾ]{}"reply"(LEX=V,POS=VER,ATE=PAS,NUM=SNG,GEN=MCL,TRA=NERG)<pun,0,0>;ਕੱਛੂਕੁੰਮੇ ਨੇ ਜਵਾਬ ਦਿੱਤਾ:
+[ਭਾਵੇਂ]{}"00.@although"(LEX=C,POS=COO,rel=and,att=@although)<eng,0,0>;ਭਾਵੇਂ ਤੂੰ ਹਵਾ ਦੀ ਤਰ੍ਹਾਂ ਤੇਜ਼ ਹੈਂ, ਮੈਂ ਤੈਨੂੰ ਦੌੜ ਵਿਚ ਹਰਾ ਦੇਵਾਂਗਾ।
+[ਤੂੰ]{}{}"00.@2"(LEX=R,POS=PPR,CAS=NOM,PER=2PS)<pun,0,0>;ਭਾਵੇਂ ਤੂੰ ਹਵਾ ਦੀ ਤਰ੍ਹਾਂ ਤੇਜ਼ ਹੈਂ, ਮੈਂ ਤੈਨੂੰ ਦੌੜ ਵਿਚ ਹਰਾ ਦੇਵਾਂਗਾ।
+[ਹਵਾ]{}"wind"(LEX=N,POS=NOU,NUM=SNG,GEN=FEM)<pun,0,0>;ਭਾਵੇਂ ਤੂੰ ਹਵਾ ਦੀ ਤਰ੍ਹਾਂ ਤੇਜ਼ ਹੈਂ, ਮੈਂ ਤੈਨੂੰ ਦੌੜ ਵਿਚ ਹਰਾ ਦੇਵਾਂਗਾ।
+[ਦੀ ਤਰ੍ਹਾਂ ]{}""(LEX=P,POS=PRE,NUM=SNG,GEN=FEM,rel=bas,+att=@equal)<pun,0,0>;ਭਾਵੇਂ ਤੂੰ ਹਵਾ ਦੀ ਤਰ੍ਹਾਂ ਤੇਜ਼ ਹੈਂ, ਮੈਂ ਤੈਨੂੰ ਦੌੜ ਵਿਚ ਹਰਾ ਦੇਵਾਂਗਾ।
+#[ਤੇਜ਼ ਹੈਂ]{}"swift"(LEX=J,POS=ADJ,NUM=SNG)<pun,0,0>;ਭਾਵੇਂ ਤੂੰ ਹਵਾ ਦੀ ਤਰ੍ਹਾਂ ਤੇਜ਼ ਹੈਂ, ਮੈਂ ਤੈਨੂੰ ਦੌੜ ਵਿਚ ਹਰਾ ਦੇਵਾਂਗਾ।
+#[ਮੈਂ]{}"00.@1"(LEX=R,POS=PPR,CAS=NOM,PER=1PS,@1)<pun,0,0>;ਭਾਵੇਂ ਤੂੰ ਹਵਾ ਦੀ ਤਰ੍ਹਾਂ ਤੇਜ਼ ਹੈਂ, ਮੈਂ ਤੈਨੂੰ ਦੌੜ ਵਿਚ ਹਰਾ ਦੇਵਾਂਗਾ।
+[ਤੈਨੂੰ]{}"00.@2"(LEX=R,POS=PPR,CAS=OBL,PER=2PS)<pun,0,0>;ਭਾਵੇਂ ਤੂੰ ਹਵਾ ਦੀ ਤਰ੍ਹਾਂ ਤੇਜ਼ ਹੈਂ, ਮੈਂ ਤੈਨੂੰ ਦੌੜ ਵਿਚ ਹਰਾ ਦੇਵਾਂਗਾ।
+[ਦੌੜ]{}"race"(LEX=N,POS=NOU,NUM=SNG,GEN=FEM)<pun,0,0>;ਭਾਵੇਂ ਤੂੰ ਹਵਾ ਦੀ ਤਰ੍ਹਾਂ ਤੇਜ਼ ਹੈਂ, ਮੈਂ ਤੈਨੂੰ ਦੌੜ ਵਿਚ ਹਰਾ ਦੇਵਾਂਗਾ।
+[ਵਿਚ]{}""(LEX=P,POS=PRE,rel=plc,v_which)<pun,0,0>;ਭਾਵੇਂ ਤੂੰ ਹਵਾ ਦੀ ਤਰ੍ਹਾਂ ਤੇਜ਼ ਹੈਂ, ਮੈਂ ਤੈਨੂੰ ਦੌੜ ਵਿਚ ਹਰਾ ਦੇਵਾਂਗਾ।
+#[ਨੂੰ]{}""(LEX=P,POS=PST,rel=obj)<pun,0,0>;ਖ਼ਰਗੋਸ਼ ਨੂੰ ਇਹ ਗੱਲ ਬਿਲਕੁਲ ਅਸੰਭਵ ਲੱਗੀ ਅਤੇ ਪ੍ਰਸਤਾਵ ਲਈ ਰਾਜੀ ਹੋ ਗਿਆ।
+[ਗੱਲ]{}"assertion"(LEX=N,POS=NOU,NUM=SNG,abstract)<pun,0,0>;ਖ਼ਰਗੋਸ਼ ਨੂੰ ਇਹ ਗੱਲ ਬਿਲਕੁਲ ਅਸੰਭਵ ਲੱਗੀ ਅਤੇ ਪ੍ਰਸਤਾਵ ਲਈ ਰਾਜੀ ਹੋ ਗਿਆ।
+[ਬਿਲਕੁਲ]{}"simply"(LEX=A,POS=AAV,rel=man)<pun,0,0>;ਖ਼ਰਗੋਸ਼ ਨੂੰ ਇਹ ਗੱਲ ਬਿਲਕੁਲ ਅਸੰਭਵ ਲੱਗੀ ਅਤੇ ਪ੍ਰਸਤਾਵ ਲਈ ਰਾਜੀ ਹੋ ਗਿਆ।
+[ਅਸੰਭਵ]{}"impossible"(LEX=J,POS=ADJ)<pun,0,0>;ਖ਼ਰਗੋਸ਼ ਨੂੰ ਇਹ ਗੱਲ ਬਿਲਕੁਲ ਅਸੰਭਵ ਲੱਗੀ ਅਤੇ ਪ੍ਰਸਤਾਵ ਲਈ ਰਾਜੀ ਹੋ ਗਿਆ।
+[ਲੱਗੀ]{}"believe"(LEX=V,POS=COP,TRA=TST,ATE=PAS,expression)<pun,0,0>;ਖ਼ਰਗੋਸ਼ ਨੂੰ ਇਹ ਗੱਲ ਬਿਲਕੁਲ ਅਸੰਭਵ ਲੱਗੀ ਅਤੇ ਪ੍ਰਸਤਾਵ ਲਈ ਰਾਜੀ ਹੋ ਗਿਆ।
+[ਪ੍ਰਸਤਾਵ]{}"proposal"(LEX=N,POS=NOU,NUM=SNG,GEN=MCL)<pun,0,0>;ਖ਼ਰਗੋਸ਼ ਨੂੰ ਇਹ ਗੱਲ ਬਿਲਕੁਲ ਅਸੰਭਵ ਲੱਗੀ ਅਤੇ ਪ੍ਰਸਤਾਵ ਲਈ ਰਾਜੀ ਹੋ ਗਿਆ।
+#[ਲਈ]{}""(LEX=P,POS=PST,rel=rsn)<pun,0,0>;ਖ਼ਰਗੋਸ਼ ਨੂੰ ਇਹ ਗੱਲ ਬਿਲਕੁਲ ਅਸੰਭਵ ਲੱਗੀ ਅਤੇ ਪ੍ਰਸਤਾਵ ਲਈ ਰਾਜੀ ਹੋ ਗਿਆ।
+[ਰਾਜੀ ਹੋ ਗਿਆ]{}"assent"(LEX=V,TRA=TST,POS=VER,ATE=PAS)<pun,0,0>;ਖ਼ਰਗੋਸ਼ ਨੂੰ ਇਹ ਗੱਲ ਬਿਲਕੁਲ ਅਸੰਭਵ ਲੱਗੀ ਅਤੇ ਪ੍ਰਸਤਾਵ ਲਈ ਰਾਜੀ ਹੋ ਗਿਆ।
+#[ਉਹਨਾਂ]{}""(LEX=R,POS=PPR,CAS=OBL,PER=3PP,@3,@pl)<pun,0,0>;ਉਹਨਾਂ ਨੇ ਮੰਨਿਆ ਕਿ ਲੂੰਬੜੀ ਪਥ ਚੁਣੇਗੀ ਅਤੇ ਟੀਚਾ ਮਿੱਥੇਗੀ।
+[ਮੰਨਿਆ]{}"agree"(LEX=V,POS=VER,TRA=TST,ATE=PAS)<pun,0,0>;ਉਹਨਾਂ ਨੇ ਮੰਨਿਆ ਕਿ ਲੂੰਬੜੀ ਪਥ ਚੁਣੇਗੀ ਅਤੇ ਟੀਚਾ ਮਿੱਥੇਗੀ।
+#[ਕਿ]{}""(LEX=P,POS=PST,rel=obj)<pun,0,0>;ਉਹਨਾਂ ਨੇ ਮੰਨਿਆ ਕਿ ਲੂੰਬੜੀ ਪਥ ਚੁਣੇਗੀ ਅਤੇ ਟੀਚਾ ਮਿੱਥੇਗੀ।
+[ਲੂੰਬੜੀ]{}"fox"(LEX=N,POS=NOU,NUM=SNG,GEN=FEM)<pun,0,0>;ਉਹਨਾਂ ਨੇ ਮੰਨਿਆ ਕਿ ਲੂੰਬੜੀ ਪਥ ਚੁਣੇਗੀ ਅਤੇ ਟੀਚਾ ਮਿੱਥੇਗੀ।
+[ਪਥ]{}"course"(LEX=N,POS=NOU,NUM=SNG,GEN=MCL)<pun,0,0>;ਉਹਨਾਂ ਨੇ ਮੰਨਿਆ ਕਿ ਲੂੰਬੜੀ ਪਥ ਚੁਣੇਗੀ ਅਤੇ ਟੀਚਾ ਮਿੱਥੇਗੀ।
+[ਚੁਣੇਗੀ]{}"choose"(LEX=V,POS=VER,TRA=TST,ATE=FUT)<pun,0,0>;ਉਹਨਾਂ ਨੇ ਮੰਨਿਆ ਕਿ ਲੂੰਬੜੀ ਪਥ ਚੁਣੇਗੀ ਅਤੇ ਟੀਚਾ ਮਿੱਥੇਗੀ।
+[ਟੀਚਾ]{}"goal"(LEX=N,POS=NOU,NUM=SNG)<pun,0,0>;ਉਹਨਾਂ ਨੇ ਮੰਨਿਆ ਕਿ ਲੂੰਬੜੀ ਪਥ ਚੁਣੇਗੀ ਅਤੇ ਟੀਚਾ ਮਿੱਥੇਗੀ।
+[ਮਿੱਥੇਗੀ]{}"fix"(LEX=V,TRA=TST,POS=VER,ATE=FUT)<pun,0,0>;ਉਹਨਾਂ ਨੇ ਮੰਨਿਆ ਕਿ ਲੂੰਬੜੀ ਪਥ ਚੁਣੇਗੀ ਅਤੇ ਟੀਚਾ ਮਿੱਥੇਗੀ।
+[ਨਿਰਧਾਰਿਤ]{}"appoint"(LEX=N,POS=NOU,NUM=SNG)<pun,0,0>;ਦੌੜ ਲਈ ਨਿਰਧਾਰਿਤ ਦਿਨ ਦੌਵਾਂ ਨੇ ਇਕੱਠੇ ਸ਼ੁਰੂ ਕੀਤਾ ।
+[ਦਿਨ]{}"day"(LEX=N,POS=NOU,NUM=SNG,GEN=MCL,rel=tim)<pun,0,0>;ਦੌੜ ਲਈ ਨਿਰਧਾਰਿਤ ਦਿਨ ਦੌਵਾਂ ਨੇ ਇਕੱਠੇ ਸ਼ੁਰੂ ਕੀਤਾ ।
+[ਦੌਵਾਂ]{}"00.@both"(LEX=R,POS=NPR,@both)<pun,0,0>;ਦੌੜ ਲਈ ਨਿਰਧਾਰਿਤ ਦਿਨ ਦੌਵਾਂ ਨੇ ਇਕੱਠੇ ਸ਼ੁਰੂ ਕੀਤਾ ।
+[ਸ਼ੁਰੂ ਕੀਤਾ]{}"start"(LEX=V,POS=VER,TRA=NERG,ATE=PAS)<pun,0,0>;ਦੌੜ ਲਈ ਨਿਰਧਾਰਿਤ ਦਿਨ ਦੌਵਾਂ ਨੇ ਇਕੱਠੇ ਸ਼ੁਰੂ ਕੀਤਾ ।
+[ਰੁਕਿਆ]{}"stop"(LEX=V,POS=VER,TRA=NERG,ATE=PAS)<pun,0,0>;ਕੱਛੂਕੁੰਮਾ ਰੁਕਿਆ ਨਹੀਂ।
+#[ਨਹੀਂ]{}""(LEX=D,att=@not,POL=NEG)<pun,0,0>;ਕੱਛੂਕੁੰਮਾ ਰੁਕਿਆ ਨਹੀਂ।
+#[ਉਹ]{}"00.@3"(LEX=R,POS=PPR,CAS=NOM,PER=3PS)<pun,0,0>;ਉਹ ਹੌਲੀ ਪਰ ਲਗਾਤਾਰ ਪਥ ਦੇ ਅਖੀਰ ਤਕ ਸਿੱਧਾ ਜਾਂਦਾ ਗਿਆ।
+[ਪਰ]{}""(LEX=C,POS=COO,rel=and,att=@but)<pun,0,0>;ਉਹ ਹੌਲੀ ਪਰ ਲਗਾਤਾਰ ਪਥ ਦੇ ਅਖੀਰ ਤਕ ਸਿੱਧਾ ਜਾਂਦਾ ਗਿਆ।
+[ਲਗਾਤਾਰ]{}"steady"(LEX=J,POS=ADJ)<pun,0,0>;ਉਹ ਹੌਲੀ ਪਰ ਲਗਾਤਾਰ ਪਥ ਦੇ ਅਖੀਰ ਤਕ ਸਿੱਧਾ ਜਾਂਦਾ ਗਿਆ।
+#[ਦੇ]{}""(LEX=P,POS=PST)<pun,0,0>;ਉਹ ਹੌਲੀ ਪਰ ਲਗਾਤਾਰ ਪਥ ਦੇ ਅਖੀਰ ਤਕ ਸਿੱਧਾ ਜਾਂਦਾ ਗਿਆ।
+[ਅਖੀਰ]{}"end"(LEX=N,POS=NOU,NUM=SNG)<pun,0,0>;ਉਹ ਹੌਲੀ ਪਰ ਲਗਾਤਾਰ ਪਥ ਦੇ ਅਖੀਰ ਤਕ ਸਿੱਧਾ ਜਾਂਦਾ ਗਿਆ।
+[ਤਕ]{}""(LEX=P,POS=PST,rel=plt)<pun,0,0>;ਉਹ ਹੌਲੀ ਪਰ ਲਗਾਤਾਰ ਪਥ ਦੇ ਅਖੀਰ ਤਕ ਸਿੱਧਾ ਜਾਂਦਾ ਗਿਆ।
+[ਸਿੱਧਾ]{}"straight"(LEX=A,POS=AAV,rel=man)<pun,0,0>;ਉਹ ਹੌਲੀ ਪਰ ਲਗਾਤਾਰ ਪਥ ਦੇ ਅਖੀਰ ਤਕ ਸਿੱਧਾ ਜਾਂਦਾ ਗਿਆ।
+[ਜਾਂਦਾ ਗਿਆ]{}"go on"(LEX=V,POS=AUX,ASP=PGS,ATE=PAS)<pun,0,0>;ਉਹ ਹੌਲੀ ਪਰ ਲਗਾਤਾਰ ਪਥ ਦੇ ਅਖੀਰ ਤਕ ਸਿੱਧਾ ਜਾਂਦਾ ਗਿਆ।
+[ਰਸਤੇ ਵਿਚ]{}"wayside"(LEX=N,POS=NOU,NUM=SNG,rel=plc)<pun,0,0>;ਖ਼ਰਗੋਸ਼ ਰਸਤੇ ਵਿਚ ਥੱਲੇ ਲੰਮਾ ਪੈ ਗਿਆ ਅਤੇ ਇਕ ਰੁੱਖ ਹੇਠ ਝਪਕੀ ਲੈ ਗਿਆ।
+[ਥੱਲੇ ਲੰਮਾ ਪੈ ਗਿਆ]{}"lay down"(LEX=V,POS=VER,ATE=PAS)<pun,0,0>;ਖ਼ਰਗੋਸ਼ ਰਸਤੇ ਵਿਚ ਥੱਲੇ ਲੰਮਾ ਪੈ ਗਿਆ ਅਤੇ ਇਕ ਰੁੱਖ ਹੇਠ ਝਪਕੀ ਲੈ ਗਿਆ।
+[ਇਕ]{}""(LEX=D,POS=ART,att=@indef)<pun,0,0>;ਖ਼ਰਗੋਸ਼ ਰਸਤੇ ਵਿਚ ਥੱਲੇ ਲੰਮਾ ਪੈ ਗਿਆ ਅਤੇ ਇਕ ਰੁੱਖ ਹੇਠ ਝਪਕੀ ਲੈ ਗਿਆ।
+[ਰੁੱਖ]{}"tree"(LEX=N,POS=NOU,NUM=SNG,GEN=MCL)<pun,0,0>;ਖ਼ਰਗੋਸ਼ ਰਸਤੇ ਵਿਚ ਥੱਲੇ ਲੰਮਾ ਪੈ ਗਿਆ ਅਤੇ ਇਕ ਰੁੱਖ ਹੇਠ ਝਪਕੀ ਲੈ ਗਿਆ।
+[ਹੇਠ]{}""(LEX=P,POS=PST,rel=plc,att=@beside)<pun,0,0>;ਖ਼ਰਗੋਸ਼ ਰਸਤੇ ਵਿਚ ਥੱਲੇ ਲੰਮਾ ਪੈ ਗਿਆ ਅਤੇ ਇਕ ਰੁੱਖ ਹੇਠ ਝਪਕੀ ਲੈ ਗਿਆ।
+[ਝਪਕੀ ਲੈ ਗਿਆ]{}"take a nap"(LEX=V,POS=VER,TRA=TSTD,ATE=PAS)<pun,0,0>;ਖ਼ਰਗੋਸ਼ ਰਸਤੇ ਵਿਚ ਥੱਲੇ ਲੰਮਾ ਪੈ ਗਿਆ ਅਤੇ ਇਕ ਰੁੱਖ ਹੇਠ ਝਪਕੀ ਲੈ ਗਿਆ।
+[ਆਖਰ]{}"at last"(LEX=A,POS=AAV,rel=man)<pun,0,0>;ਆਖਰ, ਉਹ ਉੱਠਿਆ ਅਤੇ ਦੌੜਿਆ ਜਿੰਨੀ ਤੇਜ਼ ਉਹ ਦੌੜ ਸਕਦਾ ਸੀ, ਪਰ ਇਹ ਬਹੁਤ ਦੇਰ ਸੀ |
+[ਉੱਠਿਆ]{}"wake up"(LEX=V,POS=VER,ATE=PAS,TRA=NAAC)<pun,0,0>;ਆਖਰ, ਉਹ ਉੱਠਿਆ ਅਤੇ ਦੌੜਿਆ ਜਿੰਨੀ ਤੇਜ਼ ਉਹ ਦੌੜ ਸਕਦਾ ਸੀ, ਪਰ ਇਹ ਬਹੁਤ ਦੇਰ ਸੀ |
+[ਦੌੜਿਆ]{}"run"(LEX=V,POS=VER,TRA=NERG,ATE=PAS)<pun,0,0>;ਆਖਰ, ਉਹ ਉੱਠਿਆ ਅਤੇ ਦੌੜਿਆ ਜਿੰਨੀ ਤੇਜ਼ ਉਹ ਦੌੜ ਸਕਦਾ ਸੀ, ਪਰ ਇਹ ਬਹੁਤ ਦੇਰ ਸੀ |
+[ਜਿੰਨੀ]{}""(LEX=A,POS=CJT,rel=man)<pun,0,0>;ਆਖਰ, ਉਹ ਉੱਠਿਆ ਅਤੇ ਦੌੜਿਆ ਜਿੰਨੀ ਤੇਜ਼ ਉਹ ਦੌੜ ਸਕਦਾ ਸੀ, ਪਰ ਇਹ ਬਹੁਤ ਦੇਰ ਸੀ |
+[ਤੇਜ਼] {}"fast"(LEX=J,POS=ADJ)<pun,0,0>;ਆਖਰ, ਉਹ ਉੱਠਿਆ ਅਤੇ ਦੌੜਿਆ ਜਿੰਨੀ ਤੇਜ਼ ਉਹ ਦੌੜ ਸਕਦਾ ਸੀ, ਪਰ ਇਹ ਬਹੁਤ ਦੇਰ ਸੀ |
+[ਸਕਦਾ ਸੀ]{}""(LEX=V,POS=AUX,ATE=PAS,att=@past,@ability)<pun,0,0>;ਆਖਰ, ਉਹ ਉੱਠਿਆ ਅਤੇ ਦੌੜਿਆ ਜਿੰਨੀ ਤੇਜ਼ ਉਹ ਦੌੜ ਸਕਦਾ ਸੀ, ਪਰ ਇਹ ਬਹੁਤ ਦੇਰ ਸੀ |
+#[ਇਹ]{}""(LEX=D,POS=DEM,NUM=SNG,att=@proximal)<pun,0,0>;ਆਖਰ, ਉਹ ਉੱਠਿਆ ਅਤੇ ਦੌੜਿਆ ਜਿੰਨੀ ਤੇਜ਼ ਉਹ ਦੌੜ ਸਕਦਾ ਸੀ, ਪਰ ਇਹ ਬਹੁਤ ਦੇਰ ਸੀ |
+#[ਬਹੁਤ]{}""(LEX=D,att=@plus)<pun,0,0>;ਆਖਰ, ਉਹ ਉੱਠਿਆ ਅਤੇ ਦੌੜਿਆ ਜਿੰਨੀ ਤੇਜ਼ ਉਹ ਦੌੜ ਸਕਦਾ ਸੀ, ਪਰ ਇਹ ਬਹੁਤ ਦੇਰ ਸੀ |
+[ਦੇਰ]{}"late"(LEX=J,POS=ADJ,NUM=SNG,GEN=MCL)<pun,0,0>;ਆਖਰ, ਉਹ ਉੱਠਿਆ ਅਤੇ ਦੌੜਿਆ ਜਿੰਨੀ ਤੇਜ਼ ਉਹ ਦੌੜ ਸਕਦਾ ਸੀ, ਪਰ ਇਹ ਬਹੁਤ ਦੇਰ ਸੀ |
+#[ਸੀ]{}""(LEX=V,POS=AUX,ATE=PAS,TRA=NTRA)<pun,0,0>;ਆਖਰ, ਉਹ ਉੱਠਿਆ ਅਤੇ ਦੌੜਿਆ ਜਿੰਨੀ ਤੇਜ਼ ਉਹ ਦੌੜ ਸਕਦਾ ਸੀ, ਪਰ ਇਹ ਬਹੁਤ ਦੇਰ ਸੀ |
+[ਪਹਿਲਾਂ ਹੀ]{}"already"(LEX=A,POS=AAV,rel=tim)<pun,0,0>;ਕੱਛੂਕੁੰਮਾ ਪਹਿਲਾਂ ਹੀ ਦੌੜ ਜਿੱਤ ਚੁੱਕਿਆ ਸੀ।
+[ਜਿੱਤ ਚੁੱਕਿਆ ਸੀ]{}"win"(LEX=V,TRA=NERG,POS=VER,ASP=PFV,ATE=PAS,att=@perfective,expression)<pun,0,0>;ਕੱਛੂਕੁੰਮਾ ਪਹਿਲਾਂ ਹੀ ਦੌੜ ਜਿੱਤ ਚੁੱਕਿਆ ਸੀ।
+[ਤਰੱਕੀ]{}"progress"(LEX=N,POS=NOU,NUM=SNG,rel=met)<pun,0,0>;ਹੌਲੀ ਪਰ ਲਗਾਤਾਰ ਤਰੱਕੀ ਦੌੜ ਜਿੱਤਦੀ ਹੈ।
+[ਜਿੱਤਦੀ]{}"win"(LEX=V,TRA=NERG,POS=VER)<pun,0,0>;ਹੌਲੀ ਪਰ ਲਗਾਤਾਰ ਤਰੱਕੀ ਦੌੜ ਜਿੱਤਦੀ ਹੈ।
+#[ਹੈ]{}""(LEX=V,POS=AUX,ATE=PRS,TRA=NTRA)<pun,0,0>;ਹੌਲੀ ਪਰ ਲਗਾਤਾਰ ਤਰੱਕੀ ਦੌੜ ਜਿੱਤਦੀ ਹੈ।
+[ਕੱਛੂਕੁੰਮੇ]{}"tortoise"(LEX=N,POS=NOU,NUM=SNG,CAS=NOM)<pun,0,0>;ਖ਼ਰਗੋਸ਼ ਅਤੇ ਕੱਛੂਕੁੰਮਾ
+[ਛੋਟੇ]{}"small"(LEX=J,POS=ADJ)<eng,0,0>;
+[ਪੈਰਾਂ]{}"foot"(LEX=N,POS=NOU,NUM=PLR)<eng,0,0>;
+#[ਕਿ]{}""(LEX=C,POS=CMR,rel=obj)<eng,0,0>;
+[ਦਾ]{}""(LEX=P,NUM=SNG,rel=obj)<pun,0,0>;ਇਕ ਦਿਨ ਖ਼ਰਗੋਸ਼ ਨੇ ਕੱਛੂਕੁੰਮੇ ਦੇ ਛੋਟੇ ਪੈਰਾਂ ਅਤੇ ਹੌਲੀ ਚਾਲ ਦਾ ਮਜ਼ਾਕ ਉਡਾਇਆ।
+[ਤੇਜ਼]{}"swift"(LEX=J,POS=ADJ,NUM=SNG)<pun,0,0>;ਭਾਵੇਂ ਤੂੰ ਹਵਾ ਦੀ ਤਰ੍ਹਾਂ ਤੇਜ਼ ਹੈਂ, ਮੈਂ ਤੈਨੂੰ ਦੌੜ ਵਿਚ ਹਰਾ ਦੇਵਾਂਗਾ।
+[ਹਰਾ ਦੇਵਾਂਗਾ]{}"beat"(LEX=V,POS=VER,TRA=TSTD,GEN=MCL,ATE=FUT,NUM=SNG)<eng,0,0>;
+[ਵਿਚ]{}""(LEX=P,POS=PRE,rel=scn)<pun,0,0>;ਭਾਵੇਂ ਤੂੰ ਹਵਾ ਦੀ ਤਰ੍ਹਾਂ ਤੇਜ਼ ਹੈਂ, ਮੈਂ ਤੈਨੂੰ ਦੌੜ ਵਿਚ ਹਰਾ ਦੇਵਾਂਗਾ।
+[ਮੇਜ਼ਾਂ]{}"table"(LEX=N,POS=NOU,NUM=PLR)<eng,0,0>;
+[ਮੇਰੀ]{}"00.@1"(LEX=R,POS=SPR,rel=pos)<eng,255,0>; Finaladded rel=pos added for A1__181
+[ਇਸ ਦੀ]{}"00.@3" (LEX=R,POS=SPR,LEX=P,POS=PST,rel=pos)<eng,255,0>; his is beautiful
+[ਸਾਡੀ]{}"00.@1.@pl" (LEX=R,POS=SPR,rel=pos)<eng,255,0>; ours is beautiful rel=pos is added for a1_21
+[ਉਸ ਦੀਆਂ]{}"00.@3.@male" (LEX=R,POS=SPR,rel=pos)<eng,255,0>; a1_24
+[ਉਸਦੀਆਂ]{}"00.@3.@male" (LEX=R,POS=SPR,rel=pos)<eng,255,0>;
+[ਸਾਡੀਆਂ]{}"00.@1.@pl" (LEX=R,POS=SPR,rel=pos)<eng,255,0>; FOR A2_185
+[ਪੰਜ]{}"5"(LEX=U,POS=CDN,DIGIT,NUM=PLR)<eng,0,0>;
+[ਛੇ]{}"6"(LEX=U,POS=CDN,DIGIT,NUM=PLR)<eng,0,0>;
+[ਅੱਠ]{}"8"(LEX=U,POS=CDN,NUM=PLR,DIGIT)<eng,0,0>;
+[ਛੇਤੀ]{}"early"(LEX=J,POS=ADJ,rel=tim)<eng,0,0>;
+[ਗਿਆਰਾਂ]{}"11"(LEX=U,POS=CDN,NUM=PLR,DOUBLE)<eng,0,0>;
+[ਪੰਚਵੰਜਾ]{}"55"(LEX=U,POS=CDN,NUM=PLR,DOUBLE)<eng,0,0>;
+[ਚੌਦਾਂ]{}"14"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਪੰਦਰਾਂ]{}"15"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਸੋਲਾਂ]{}"16"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਅਠਾਸੀ]{}"88"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਉੱਨੀ]{}"19"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਵੀਹ]{}"20"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਤੀਹ]{}"30"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਚਾਲੀ]{}"40"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਪੰਜਾਹ]{}"50"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਸੱਠ]{}"60"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਸੱਤਰ]{}"70"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਅੱਸੀ]{}"80"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਨੱਬੇ]{}"90"(LEX=U,POS=CDN,NUM=PLR,DOUBLE)<eng,0,0>;
+[ਇੱਕੀ]{}"21"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਬੱਤੀ]{}"32"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਤਿਰਤਾਲੀ]{}"43"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਚੁਰੰਜਾ]{}"54"(LEX=U,POS=CDN,NUM=PLR,DOUBLE)<eng,0,0>;
+[ਪੈਂਹਠ]{}"65"(LEX=U,POS=CDN,NUM=PLR,DOUBLE)<eng,0,0>;
+[ਛਿਹੱਤਰ]{}"76"(LEX=U,POS=CDN,NUM=PLR,DOUBLE)<eng,0,0>;
+[ਸਤਾਸੀ]{}"87"(LEX=U,POS=CDN,NUM=PLR,DOUBLE)<eng,0,0>;
+[ਅਠਾਨਵੇਂ]{}"98"(LEX=U,POS=CDN,NUM=PLR,DOUBLE)<eng,0,0>;
+[ਪੰਜ]{}"5"(LEX=U,POS=CDN,NUM=PLR,DIGIT)<eng,0,0>;
+[ਪਹਿਲਾ]{}"1.@ordinal"(LEX=U,POS=ORD,DIGIT)<eng,0,0>;
+[ਦੂਜਾ]{}"2"(LEX=U,POS=ORD,NUM=PLR,DIGIT,@ordinal)<eng,0,0>;
+[ਤੀਜਾ]{}"3"(LEX=U,POS=ORD,NUM=PLR,DIGIT,@ordinal)<eng,0,0>;
+[ਚੌਥਾ]{}"4"(LEX=U,POS=ORD,NUM=PLR,DIGIT,@ordinal)<eng,0,0>;
+[ਇੱਕੀ]{}"21"(LEX=U,POS=CDN,NUM=PLR,DOUBLE)<eng,0,0>;
+[ਬਾਈ]{}"22"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਤੇਈ]{}"23"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਚੋਵੀ]{}"24"(LEX=U,POS=CDN,NUM=PLR,DOUBLE)<eng,0,0>;
+[ਤੇਰਵਾਂ]{}"13"(LEX=U,POS=ORD,NUM=PLR,att=@ordinal)<eng,0,0>;
+[ਚੌਦਵਾਂ]{}"14"(LEX=U,POS=ORD,NUM=PLR,att=@ordinal)<eng,0,0>;
+[ਪੰਦਰਵਾਂ]{}"15"(LEX=U,POS=ORD,NUM=PLR,att=@ordinal)<eng,0,0>;
+[ਸੋਲਵਾਂ]{}"16"(LEX=U,POS=ORD,NUM=PLR,att=@ordinal)<eng,0,0>;
+[ਸਤਾਰਵਾਂ]{}"17"(LEX=U,POS=ORD,NUM=PLR,att=@ordinal)<eng,0,0>;
+[ਅਠਾਰਵਾਂ]{}"18"(LEX=U,POS=ORD,NUM=PLR,att=@ordinal)<eng,0,0>;
+[ ]{}" "(BLK)<eng,0,0>;
+[ਬਾਈ]{}"22"(LEX=U,POS=CDN,NUM=PLR,DOUBLE)<eng,0,0>;
+[ਦਸ਼ਮਲਵ]{}"." (LEX=N,POS=NOU,NUM=SNG)<eng,0,0>;
+[ਅਤੇ]{}"and" (LEX=C,POS=CCJ,rel=and)<eng,255,0>;
+[ਬਾਰੇ]{}""(LEX=P,POS=PRE,rel=cnt,att=@about)<eng,0,0>;
+[ਸਾਰੀਆਂ]{}""(LEX=D,POS=QUA,GEN=FEM,NUM=MCL,att=@all)<eng,0,0>;
+[ਕੋਈ]{}""(LEX=D,POS=QUA,att=@any)<eng,0,0>;
+#[ਸੋਹਣੀ]{}"beautiful"(LEX=J,POS=ADJ,GEN=FEM,NUM=SGT)<eng,0,0>;
+[ਕਿਉਂਕਿ]{}""(LEX=C,POS=SCJ,rel=rsn)<eng,0,0>;
+[ਕਿਤਾਬ]{}"book"(LEX=N,POS=NOU,NUM=SNG)<eng,0,0>;
+[ਕਿਤਾਬਾਂ]{}"book"(LEX=N,POS=NOU,NUM=PLR)<eng,0,0>;
+[ਦੁਆਰਾ]{}""(LEX=P,POS=PST,rel=agt)<eng,0,0>;
+[ਮਰ ਗਿਆ]{}"die"(LEX=V,POS=VER,ATE=PAS,NUM=SNG,GEN=MCL,TRA=NACC)<eng,0,0>;
+[ਕੁਝ]{}""(LEX=D,POS=QUA,att=@paucal)<eng,0,0>;
+[ਲਈ]{}""(LEX=P,POS=PST,rel=gol)<eng,0,0>;
+[ਤੋਂ]{}""(LEX=P,POS=PST,rel=src)<eng,0,0>;
+[ਦਿੱਤੀ]{}"give"(LEX=V,POS=VER,ATE=PAS,GEN=FEM,NUM=SG,TRA=TST2)<eng,0,0>;
+[ਜਾ]{}"go"(LEX=V,POS=VER,VBL=INF,TRA=TSTI)<eng,0,0>;
+[ਰਿਹਾ ਹੈ]{}""(LEX=V,POS=AUX,VBL=GER,+att=@progressive;@present)<eng,0,0>;<eng,0,0>
+[ਕੋਲ]{}"have"(LEX=V,POS=VER,TRA=TSTD)<eng,0,0>;
+[ਹੈ]{}""(LEX=V,POS=COP,PER=3PS,ATE=PRS,att=@present)<eng,0,0>;
+#[ਹੈ]{}""(LEX=V,POS=AUX,TRA=NTRA,ATE=PRS)<eng,0,0>;
+[ਜਾਨ]{}"John"(LEX=N,POS=PPN,GEN=MCL,NUM=SNG,CAS=GNT)<eng,0,0>;
+[ਮਾਰ ਦਿੱਤਾ]{}"kill"(LEX=V,POS=VER,TRA=TSTD,GEN=MCL,ATE=PAS,NUM=SG)<eng,0,0>;
+[ਰਸੋਈ]{}"kitchen"(LEX=N,POS=NOU,NUM=SNG)<eng,0,0>;
+[ਚਾਕੂ]{}"knife"(LEX=N,POS=NOU,NUM=SNG)<eng,0,0>;
+[ਘੱਟ]{}""(LEX=D,POS=QUA,att=@less)<eng,0,0>;
+[ਕਈ]{}""(LEX=D,POS=QUA,att=@mutal)<eng,0,0>;
+#[ਮੈਰੀ]{}"Mary"(LEX=N,POS=PPN,GEN=FEM,NUM=SNG)<eng,0,0>;
+[ਜ਼ਿਆਦਾ]{}""(LEX=D,POS=QUA,att=@multal)<eng,0,0>;
+[ਨਵੀਂ]{}"new"(LEX=J,GEN=FEM,POS=ADJ,NUM=SG)<eng,0,0>;
+[ਨਵੀਂਆਂ]{}"new"(LEX=J,GEN=FEM,POS=ADJ,NUM=PLR)<eng,0,0>;
+[ਦੀ]{}""(LEX=P,POS=PST,GEN=FEM,rel=pos)<eng,0,0>;
+[ਪੈਰਿਸ]{}"Paris"(LEX=N,POS=PPN,NUM=SNG,SEM=LCT)<eng,0,0>;
+[ਪੀਟਰ]{}"Peter"(LEX=N,POS=PPN,GEN=MCL,NUM=SNG,CAS=NOM)<eng,0,0>;
+[ਉਹ]{}""(LEX=D,POS=DEM,NUM=SNG,att=@distal)<eng,0,0>;
+[ਇਹ]{}"00"(LEX=D,POS=DEM,NUM=SNG,att=@proximal)<eng,0,0>; VAIBHAV A2_152
+[ਉਹ]{}""(LEX=D,POS=DEM,NUM=PLR,att=@distal)<eng,0,0>;
+[ਤਕ]{}""(LEX=P,POS=PRE,rel=plt)<eng,0,0>;
+[ਬਹੁਤ ਹੀ]{}""(LEX=D,POS=QUA,att=@extra)<eng,0,0>;
+[ਦੋ]{}"2"(LEX=U,POS=CDN,NUM=PLR)<eng,0,0>;
+[ਸੀ]{}""(LEX=V,POS=COP,TRA=TSTD,ATE=PAS)<eng,0,0>;
+[ਸੀ]{}""(LEX=V,POS=AUX,TRA=NTRA,ATE=PAS)<eng,0,0>;
+[ਹੋਵੇਗਾ]{}""(LEX=V,POS=AUX,TRA=NTRA,ATE=FUT)<eng,0,0>;
+[ਨਾਲ]{}""(LEX=P,POS=PST,rel=ins)<eng,0,0>;
+[ਕਲ੍ਹ]{}"yesterday"(LEX=A,POS=ADV,SEM=TME)<eng,0,0>;
+[ਜਾਵੇਗਾ]{}"go"(LEX=V,POS=VER,VBL=INF,TRA=TSTI,ATE=FUT)<eng,0,0>;
+[ਨੇ]{}""(LEX=P,POS=PST,rel=agt)<eng,0,0>;
+[ਨੂੰ]{}""(LEX=P,POS=PST,rel=obj)<eng,0,0>;
+[ ]{}""(BLK)<eng,0,0>;
+[ਸੋਹਣੀਆਂ]{}"beautiful"(LEX=J,POS=ADJ,GEN=FEM,NUM=PLR)<eng,0,0>;
+#[,]{}""(LEX=C,POS=COO,rel=and)<eng,0,0>;
+[ਰਿਹਾ ਸੀ]{}""(LEX=V,POS=AUX,VBL=GER,ASP=PGS,ATE=PAS)<eng,0,0>;<eng,0,0>;
+[ਚਰਵੰਜਵਾਂ]{}"54"(LEX=U,POS=ORD,NUM=PLR,att=@ordinal)<eng,0,0>;
+[ਅਠਾਨਮਾਂ]{}"98"(LEX=U,POS=ORD,NUM=PLR,att=@ordinal)<eng,0,0>;
+[ਕੀ]{}"what" (LEX=D,POS=DEM,att=@wh,INTERRO,VAB)<eng,255,0>;
+[ਹੋਰ ਕੋਈ]{}"another" (LEX=D,POS=DEM,att=@other)<eng,255,0>;
+[ਹਰੇਕ]{}"each" (LEX=D,POS=QUA,att=@each)<eng,255,0>;
+[ਅਜਿਹੀਆਂ]{}"such" (LEX=D,POS=DEM,att=@such)<eng,255,0>;
+[ਕਿਹੜੀ]{}"which" (LEX=D,POS=DEM,att=@wh)<eng,255,0>;
+[ਕੋਈ ਵੀ]{}"any" (LEX=D,POS=QUA,att=@any)<eng,255,0>;
+[ਦੋਵੇਂ]{}"both" (LEX=D,POS=QUA,att=@both)<eng,255,0>;
+[ਕਾਫ਼ੀ]{}"enough" (LEX=D,POS=QUA,DIS=AFT,att=@enough)<eng,255,0>;
+[ਹਰ]{}"every" (LEX=D,POS=QUA,att=@every)<eng,255,0>;
+[ਕੁਝ ਕੁ]{}"fewer" (LEX=D,POS=QUA,att=@paucal;@less)<eng,255,0>;
+[ਵੱਧ]{}"more" (LEX=D,POS=QUA,att=@more)<eng,255,0>;
+[ਸਭ ਤੋਂ ਵੱਧ]{}"most" (LEX=D,POS=QUA,att=@most)<eng,255,0>;
+[ਪੈਸਾ]{}"money" (LEX=N,POS=NOU,NUM=SNGT)<eng,0,0>;
+[ਵਾਧੂ]{}"much" (LEX=D,POS=QUA,att=@multal)<eng,255,0>;
+[ਬਹੁਤ ਸਾਰੀਆਂ]{}"many" (LEX=D,POS=QUA,att=@multal)<eng,255,0>;
+[ਨਹੀਂ]{}"" (LEX=D,POS=QUA,att=@no)<eng,255,0>;
+[ਕੁਝ ਇਕ]{}"a couple of" (LEX=D,POS=QUA,att=@paucal)<eng,255,0>;
+[ਥੋੜਾ ਕੁ]{}"a little" (LEX=D,POS=QUA,att=@paucal)<eng,255,0>;
+#[ਹੋਰ]{}"more" (LEX=D,POS=QUA,att=@more)<eng,255,0>;
+[ਬਹੁਤੀਆਂ ਹੋਰ]{}"" (LEX=D,POS=QUA,att=@other;@multal)<eng,255,0>;
+[ਇਹਨੀਆਂ]{}"so" (LEX=A,POS=SAV,att=@plus)<eng,255,0>;
+[ਇਹਨੀਆਂ ਸਾਰੀਆਂ]{}"so many" (LEX=D,POS=QUA,att=@multal;@plus)<eng,255,0>;
+[ਇਹੀ]{}"the" (LEX=D,POS=ART,att=@def)<eng,255,0>;
+[ਸਿਰਫ਼]{}"only" (LEX=D,POS=DEM,att=@only)<eng,255,0>;
+[ਬਹੁਤ ਹੀ ਸਾਰੀਆਂ]{}"too many" (LEX=D,POS=QUA,att=@multal;@extra)<eng,255,0>;
+#[ਮੇਰੀ]{}"00.@1" (LEX=D,POS=POD)<eng,255,0>;
+#[ਤੁਹਾਡੀ]{}"00.@2" (LEX=D,POS=POD)<eng,255,0>;
+[ਉਹ ਦੀ]{}"00.@3.@female" (LEX=D,POS=POD)<eng,255,0>;
+[ਉਸਦੀ]{}"00.@3.@male" (LEX=D,POS=POD)<eng,255,0>;
+[ਸਾਡੀ]{}"00.@1.@pl" (LEX=D,POS=POD)<eng,255,0>;
+[ਉਹਨਾਂ ਦੀ]{}"00.@3.@pl" (LEX=D,POS=POD)<eng,255,0>;
+#[ਮੇਰੀਆਂ]{}"00.@1" (LEX=D,POS=POD)<eng,255,0>;
+[ਉਹਦੀਆਂ]{}"00.@3.@male" (LEX=D,POS=POD)<eng,255,0>;
+[ਆਪਣੀ]{}"own" (LEX=D,POS=DEM,att=@own)<eng,255,0>;
+[ਕੁਝ]{}"few" (LEX=D,POS=QUA,att=@paucal)<eng,255,0>;
+[ਉਹਨਾਂ ਦੀਆਂ]{}"00.@3.@pl" (LEX=D,POS=POD)<eng,255,0>;
+[ਵਧੇਰੇ]{}"a lot of" (LEX=D,POS=QUA,att=@multal)<eng,255,0>;
+[ਮੇਜ]{}"table"(LEX=N,POS=NOU,NUM=SNG)<eng,0,0>;
+[ਉੱਤੇ]{}"on" (LEX=P,POS=PRE,rel=plc,att=@on)<eng,255,0>;
+[ਉੱਪਰ]{}"above" (LEX=P,POS=PRE,rel=plc,att=@above)<eng,255,0>;
+[ਦੁਆਲੇ]{}"around" (LEX=P,POS=PRE,rel=plc,att=@around)<eng,255,0>;
+[ਵਿਰੁੱਧ]{}"against" (LEX=P,POS=PRE,rel=man,att=@against)<eng,255,0>;
+[ਦੇ ਉੱਤੇ]{}"above" (LEX=P,POS=PRE,rel=plc,att=@above)<eng,255,0>;
+[ਮੇਜ਼]{}"table"(LEX=N,POS=NOU,NUM=SNG)<eng,0,0>;
+[ਤੇ]{}"at" (LEX=P,POS=PRE,rel=plc,att=@at)<eng,255,0>;
+[ਦੇ ਪਿੱਛੇ]{}"" (LEX=P,POS=PRE,rel=plc,att=@behind)<eng,255,0>;
+[ਪਿੱਛੇ]{}"" (LEX=P,POS=PRE,rel=plc,att=@behind)<eng,255,0>;
+[ਦੇ ਥੱਲੇ]{}"below" (LEX=P,POS=PRE,rel=plc,att=@below)<eng,255,0>;
+#[ਥੱਲੇ]{}"below" (LEX=P,POS=PRE,rel=plc,att=@below)<eng,255,0>;
+[ਹੇਠਾਂ]{}"beneath" (LEX=P,POS=PRE,rel=plc,att=@beneath)<eng,255,0>;
+[ਦੇ ਨੇੜੇ]{}"beside" (LEX=P,POS=PRE,rel=plc,att=@beside)<eng,255,0>;
+[ਨੇੜੇ]{}"beside" (LEX=P,POS=PRE,rel=plc,att=@beside)<eng,255,0>;
+#[ਦੇ ਨਜ਼ਦੀਕ]{}"close to" (LEX=P,POS=PRE,rel=plc,att=@close_to)<eng,255,0>;
+[ਨਜ਼ਦੀਕ]{}"close to" (LEX=P,POS=PRE,rel=plc,att=@close_to)<eng,255,0>;
+[ਤੋਂ ਪਰੇ]{}"far from" (LEX=P,POS=PRE,rel=plc,att=@far_from)<eng,255,0>;
+[ਲਈ]{}"for" (LEX=P,POS=PRE,rel=ben,att=@for)<eng,255,0>;
+[ਦੇ ਸਾਹਮਣੇ]{}"in front of" (LEX=P,POS=PRE,rel=plc,att=@in_front_of)<eng,255,0>;
+[ਸਾਹਮਣੇ]{}"in front of" (LEX=P,POS=PRE,rel=plc,att=@in_front_of)<eng,255,0>;
+[ਬਕਸੇ]{}"box" (LEX=N,POS=NOU,NUM=SNG)<eng,0,0>;
+[ਦੇ ਅੰਦਰ]{}"inside" (LEX=P,POS=PRE,rel=plc,att=@inside)<eng,255,0>;
+[ਲਾਗੇ]{}"near" (LEX=P,POS=PRE,rel=plc,att=@near)<eng,255,0>;
+[ਤੋਂ ਅੱਗੇ]{}"next to" (LEX=P,POS=PRE,rel=plc,att=@next_to)<eng,255,0>;
+[ਦੀ]{}"of" (LEX=P,POS=PRE,rel=mod)<eng,255,0>;
+[ਮੇਜਾਂ]{}"table"(LEX=N,POS=NOU,NUM=PLR)<eng,0,0>;
+[ਵਿਚਕਾਰ]{}"among" (LEX=P,POS=PRE,rel=plc,att=@among)<eng,255,0>;
+[ਤੋਂ ਬਾਹਰ]{}"out of" (LEX=P,POS=PRE,rel=plc,att=@out_of)<eng,255,0>;
+[ਦੇ ਬਾਹਰ]{}"outside" (LEX=P,POS=PRE,rel=plc,att=@outside)<eng,255,0>;
+[ਤਲੇ]{}"under" (LEX=P,POS=PRE,rel=plc,att=@under)<eng,255,0>;
+[ਥੱਲਿਓਂ]{}"underneath" (LEX=P,POS=PRE,rel=plc,att=@underneath)<eng,255,0>;
+[ਤਸਵੀਰਾਂ]{}"picture" (LEX=N,POS=NOU,NUM=PLR)<eng,0,0>;
+[ਨਾਲ]{}"with" (LEX=P,POS=PRE,rel=man,att=@with)<eng,255,0>;
+[ਦੇ ਵਿਚ ਵਿਚ]{}"within" (LEX=P,POS=PRE,rel=plc,att=@within)<eng,255,0>;
+[ਤੋਂ ਬਿਨਾਂ]{}"without" (LEX=P,POS=PRE,rel=man,att=@without)<eng,255,0>;
+[ਰੇਲ ਗੱਡੀ]{}"train" (LEX=N,POS=NOU,NUM=SNG)<eng,0,0>;
+[ਤੋਂ]{}"from" (LEX=P,POS=PRE,rel=plc,att=@from)<eng,255,0>;
+[ਨੂ]{}"to" (LEX=P,POS=PRE,rel=plc,att=@to)<eng,255,0>;
+[ਵਿਚੋਂ]{}"through" (LEX=P,POS=PRE,rel=plc,att=@through)<eng,255,0>;
+[ਤੋਂ ਪਾਰ]{}"across" (LEX=P,POS=PRE,rel=plc,att=@across)<eng,255,0>;
+[ਦੁਪਿਹਰ]{}"noon" (LEX=N,POS=NOU,NUM=SNGT)<eng,0,0>;
+#[ਮਿੰਟਾਂ]{}"minutes" (LEX=N,POS=NOU,NUM=PLR)<eng,0,0>;
+[ਬਾਅਦ]{}"after" (LEX=P,POS=PRE,rel=tim,att=@after)<eng,255,0>;
+[ਪਹਿਲਾ]{}"before" (LEX=P,POS=PRE,rel=tim,att=@before)<eng,255,0>;
+[ਤੋਂ ਲੈ ਕੇ]{}"since" (LEX=P,POS=PRE,rel=tim,att=@since)<eng,255,0>;
+[ਤੱਕ]{}"until" (LEX=P,POS=PRE,rel=tim,att=@until)<eng,255,0>;
+[ਦਰਮਿਆਨ]{}"between" (LEX=P,POS=PRE,rel=plc,att=@between)<eng,255,0>;
+[ਜਨੇਵਾ]{}"Geneva"(LEX=N,POS=PPN,NUM=SNGT,SEM=LCT)<eng,0,0>;
+[ਨੂੰ]{}"to" (LEX=P,POS=PRE,rel=plc,att=@to)<eng,255,0>;
+[ਤੋਂ ਬਾਅਦ]{}"after" (LEX=P,POS=PRE,rel=tim,att=@after)<eng,255,0>;
+[ਤੋਂ ਪਹਿਲਾ]{}"after" (LEX=P,POS=PRE,rel=tim,att=@before)<eng,255,0>;
+[ਰੋਮ]{}"Rome"(LEX=N,POS=PPN,NUM=SNGT,SEM=LCT)<eng,0,0>;
+[ਦਸ]{}"10"(LEX=U,POS=CDN,NUM=PLR,DOUBLE)<eng,0,0>;
+[ਤਰਤਾਲੀ]{}"43"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਚੁਤਾਲੀ]{}"44"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਪੈਂਹਟ]{}"65"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਤੇਤੀ]{}"33"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਇਕਾਨਵੇਂ]{}"91"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਛਿਆਹਟ]{}"66"(LEX=U,POS=CDN,NUM=PLR,DOUBLE)<eng,0,0>;
+[ਸਤੱਤਰ]{}"77"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਚੋਵਾਲੀ]{}"44"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਪਹਿਲਾਂ]{}"1.@ordinal"(LEX=U,POS=ORD,DIGIT)<eng,0,0>;
+[ਗਿਆਰਵਾਂ]{}"11"(LEX=U,POS=ORD,NUM=PLR,att=@ordinal)<eng,0,0>;
+[ਬਾਰ੍ਹਵਾਂ]{}"12"(LEX=U,POS=ORD,NUM=PLR,att=@ordinal)<eng,0,0>;
+[ਕਰਦੇ ਹਾਂ]{}"" (LEX=V,POS=AUX,ATE=PRS,PER=1PS,att=@present,@pl)<eng,255,0>;
+[ਕਰਦੇ ਹਨ]{}"" (LEX=V,POS=AUX,ATE=PRS,PER=3PS,att=@present,att1=@pl)<eng,255,0>;
+[ਪਿਆਰ]{}"love"(LEX=V,POS=VER,TRA=TSTD,VLUV)<eng,0,0>; we love you
+[ਤੁਹਾਨੂੰ]{}"00.@2" (LEX=R,POS=PPR,CAS=OBL,PER=2PS)<eng,255,0>;
+#[ਇਹ]{}"00" (LEX=D,POS=DEM,NUM=SNG,@proximal)<eng,255,0>; this book
+#[ਇਹ ]{}"00" (LEX=D,POS=DEM,NUM=PLR,att=@proximal)<eng,255,0>; these books
+[ਦੀ]{}""(LEX=P,POS=PST,GEN=FEM,rel=pos)<eng,0,0>;
+#[ਸੋਹਣੀ]{-1}"beautiful"(LEX=J,  POS=ADJ,  GEN=FEM,  NUM=SGT)<eng,0,0>;
+#[ਓ]{}"00" (LEX=D,POS=DEM,NUM=PLR,att=@distal)<eng,255,0>; those books
+[ਕਿਤਾਬਾਂ]{-1}"book"(LEX=N,  POS=NOU,  NUM=PLR)<eng,0,0>;
+[ਕਿਤਾਬ]{-1}"book"(LEX=N,  POS=NOU,  NUM=SNG)<eng,0,0>;
+[ਇਕ]{-1}""(LEX=D,  POS=ART,  att=@indef)<eng,0,0>;
+#[ਹਨ]{}"00" (LEX=V,POS=COP,POS=AUX,ATE=PRS,PER=2PS,PER=1PP,PER=2PP,PER=3PP,att=@present,NUM=PLR)<eng,255,0>;
+[ਹਾਂ]{-1}""(LEX=V,  POS=AUX,  TRA=NTRA,  ATE=PRS)<eng,0,0>;
+[ਹੀ]{-1}""()<eng,0,0>;
+[ ]{-1}""(BLK)<eng,0,0>;
+[ਨਾਲ]{-1}""(LEX=P,  POS=PST,  rel=ins)<eng,0,0>;
+#[ਹੈ]{-1}"00"(LEX=V,  POS=AUX,  TRA=NTRA,  ATE=PRS,att=@present)<eng,0,0>;
+[ਨੂੰ]{-1}""(LEX=P,  POS=PST,  rel=obj)<eng,0,0>;
+[ਮੈਂ]{}"00.@1" (LEX=R,POS=PPR,CAS=NOM,PER=1PS)<eng,255,0>; I love you
+[ਮੈਨੂੰ]{}"00.@1" (LEX=R,POS=PPR,CAS=OBL,PER=1PS)<eng,255,0>; you love me
+[ਤੁਸੀਂ]{}"00.@2" (LEX=R,POS=PPR,CAS=NOM,CAS=OBL,PER=2PS,PER=2PP)<eng,255,0>; I love you, you love me
+#[ਉਹ]{}"00.@3" (LEX=R,POS=PPR,CAS=NOM,PER=3PS)<eng,255,0>; he lovers her
+#[ਉਹ]{}"him.@3" (LEX=R,POS=PPR,CAS=OBL,PER=3PS)<eng,255,0>; she loves him
+#[ਉਹ]{}"she.@3" (LEX=R,POS=PPR,CAS=NOM,PER=3PS)<eng,255,0>; she loves him
+#[ਉਸਨੂੰ]{}"00.@3.@female" (LEX=R,POS=PPR,CAS=OBL,PER=3PS)<eng,255,0>; he loves her
+[ਕੋਲ]{}"have"(LEX=V,POS=VER,TRA=TSTD,ATE=INF,ATE=PRS)<eng,0,0>; few have enough
+[ਅਸੀਂ]{}"00.@1.@pl" (LEX=R,POS=PPR,CAS=NOM,PER=1PP)<eng,255,0>; we love you
+[ਸਾਨੂੰ]{}"00.@1.@pl" (LEX=R,POS=PPR,CAS=OBL,PER=1PS)<eng,255,0>; you love us
+#[ਉਹ]{}"they.@3.@pl" (LEX=R,POS=PPR,CAS=NOM,PER=3PP)<eng,255,0>; they love it
+[ਉਹਨਾਂ]{}"them.@3.@pl" (LEX=R,POS=PPR,CAS=OBL,PER=3PP)<eng,255,0>; we love them
+[ਤੁਹਾਡੀ]{}"00.@2" (LEX=R,POS=SPR,rel=pos)<eng,255,0>; yours is beautiful
+[ਉਸਦੀ]{}"00.@3.@male" (LEX=R,POS=SPR, LEX=P,  POS=PST,  rel=pos)<eng,255,0>; his is beautiful
+#[ਉਸ]{}"hers.@3.@female" (LEX=R,POS=SPR,att=@her)<eng,255,0>; hers is beautiful
+[ਇਹਦੀ]{}"its.@3" (LEX=R,POS=SPR)<eng,255,0>; its is beautiful
+[ਸਾਡੀ]{}"00.@1.@pl" (LEX=R,POS=SPR)<eng,255,0>; ours is beautiful
+[ਉਹਨਾਂ ਦੀ]{}"00.@3.@pl" (LEX=R,POS=SPR,rel=pos)<eng,255,0>; theirs is beautiful
+[ਖੁਦ ਨੂੰ]{}"00.@1" (LEX=R,POS=FPR,PER=1PS,att=@reflexive)<eng,255,0>; I love myself
+[ਆਪਣੇ ਆਪ ਨੂੰ]{}"00.@2" (LEX=R,POS=FPR,PER=2PS,att=@reflexive)<eng,255,0>; you love yourself
+[ਖ਼ੁਦ ਨੂੰ]{}"00.@3" (LEX=R,POS=FPR,PER=3PS,att=@reflexive)<eng,255,0>; he loves himself
+[ਆਪਣੇ ਆਪ]{}"herself.@3.@female" (LEX=R,POS=FPR,PER=3PS)<eng,255,0>; she loves herself
+[ਆਪਣੇ ਆਪ]{}"itself.@3" (LEX=R,POS=FPR,PER=3PS)<eng,255,0>; it loves itself
+[ਆਪਣੇ ਆਪ]{}"ourselves.@1.@pl" (LEX=R,POS=FPR,PER=1PP)<eng,255,0>; we love ourselves
+[ਆਪਣੇ ਆਪ]{}"yourselves.@2.@pl" (LEX=R,POS=FPR,PER=2PP)<eng,255,0>; you love yourselves
+[ਆਪਣੇ ਆਪ]{}"themselves.@3.@pl" (LEX=R,POS=FPR,PER=3PP)<eng,255,0>; they love themselves
+[ਇਕ ਦੂਜੇ ਨੂੰ]{}"00" (LEX=R,POS=CPR,att=@reciprocal)<eng,255,0>; they love one another
+[ਇਕ ਦੂਜੇ ਨਾਲ]{}"00" (LEX=R,POS=CPR,att=@reciprocal)<eng,255,0>; they love each other
+[ਜਰਾ ਕੁ]{}"00.@paucal" (LEX=R,POS=NPR)<eng,255,0>; both have a little
+[ਥੋੜ੍ਹਾ ਥੋੜ੍ਹਾ]{}"00.@paucal" (LEX=R,POS=NPR)<eng,255,0>; both have little
+[ਸਭ]{}"00" (LEX=D,POS=QUA,att=@most)<eng,255,0>; most books
+[ਇਕ ਹੋਰ]{}"00.@other" (LEX=R,POS=NPR)<eng,255,0>; anybody has another
+#[ਕੋਈ]{}"any.@any" (LEX=R,POS=NPR)<eng,255,0>; either has any
+[ਕਿਸੇ ਬੰਦੇ]{}"00.@any.@person" (LEX=R,POS=NPR)<eng,255,0>; anybody has another
+[ਕਿਸੇ ਵੀ]{}"00.@any.@person" (LEX=R,POS=NPR)<eng,255,0>; anyone has anything
+[ਕੋਈ ਵੀ ਚੀਜ਼]{}"00.@any.@thing" (LEX=R,POS=NPR)<eng,255,0>; anyone has anything
+#[ਦੋਵਾਂ]{}"00.@both" (LEX=R,POS=NPR)<eng,255,0>; both have little
+[ਹਰੇਕ]{}"00.@each" (LEX=R,POS=NPR)<eng,255,0>; each has nothing
+#[ਦੋਵਾਂ]{}"either.@either" (LEX=R,POS=NPR)<eng,255,0>; either has any
+[ਕਾਫੀ]{}"00.@enough" (LEX=R,POS=NPR)<eng,255,0>; few have enough
+[ਹਰ ਬੰਦੇ]{}"00.@every.@person" (LEX=R,POS=NPR)<eng,255,0>; everybody has everyone
+[ਹਰ ਕੋਈ]{}"00.@every.@person" (LEX=R,POS=NPR)<eng,255,0>; everybody has everyone
+[ਹਰ ਚੀਜ਼]{}"everything.@every.@thing" (LEX=R,POS=NPR)<eng,255,0>; few have everything
+[ਕੁਝ]{}"00.@paucal" (LEX=R,POS=NPR,VDRULE)<eng,255,0>; few have everything
+[ਥੋੜ੍ਹਾ ਹੀ]{}"00.@paucal" (LEX=R,POS=NPR)<eng,255,0>; less is more
+[ਬਹੁਤਿਆਂ]{}"00.@multal" (LEX=R,POS=NPR,)<eng,255,0>; many have much
+[ਜਿਆਦਾ]{}"00.@more" (LEX=R,POS=NPR)<eng,255,0>; less is more
+[ਬੜਾ ਕੁਝ]{}"00.@multal" (LEX=R,POS=NPR)<eng,255,0>; many have much
+[ਨਾ ਹੀ ਦੋਵਾਂ]{}"00.@neither" (LEX=R,POS=NPR)<eng,255,0>; neither has all
+[ਕੁਝ ਵੀ ਨਹੀ]{}"00.@no.@thing" (LEX=R,POS=NPR)<eng,255,0>; each has nothing
+[ਕਿਸੇ ਹੋਰ]{}"00.@other" (LEX=R,POS=NPR)<eng,255,0>; other has more
+[ਕਿਸੇ]{}"00.@person" (LEX=R,POS=NPR)<eng,255,0>; somebody has something
+[ਕੋਈ ਚੀਜ਼]{}"00.@thing" (LEX=R,POS=NPR)<eng,255,0>; somebody has something
+[ਨੂੰ]{-1}""(LEX=P,  POS=PST,  rel=obj)<eng,0,0>;
+[ਸੀ]{-1}""(LEX=V,  POS=AUX,  TRA=NTRA,  ATE=PAS)<eng,0,0>;
+[ਸੋਹਣੀਆਂ]{-1}"beautiful"(LEX=J,  POS=ADJ,  GEN=FEM,  NUM=PLR)<eng,0,0>;
+[ਇਸ ਨੂੰ]{}"00.@3" (LEX=R,POS=PPR,CAS=NOM,CAS=OBL,PER=3PS)<eng,255,0>; they love it
+[ਬਥੇਰਿਆਂ]{}"00" (LEX=D,POS=QUA,att=@multal)<eng,255,0>; several books
+[ਸਾਰੇ]{}"00" (LEX=D,POS=QUA,att=@all)<eng,255,0>; all books
+[ਜਾਂ ਦੋਵਾਂ]{}"00.@either" (LEX=R,POS=NPR)<eng,255,0>; either has any
+[ਕਰਦੇ ਹੋ]{}"" (LEX=V,POS=AUX,ATE=PRS,att=@present,PER=2PS)<eng,255,0>;
+[ਕਰਦਾ ਹਾਂ]{}"" (LEX=V,POS=AUX,ATE=PRS,att=@present,PER=1PS,GEM=MCL)<eng,255,0>;
+[ਕਰਦੀ ਹੈ]{}"" (LEX=V,POS=AUX,ATE=PRS,att=@present,PER= 3PS,att1=@female,GEN=FEM)<eng,255,0>;
+[ਕਰਦਾ ਹੈ]{}"" (LEX=V,POS=AUX,ATE=PRS,PER=3PS,att=@present,att1=@male,GEN=MCL)<eng,255,0>;
+[ਇਕ]{}""(LEX=D,POS=ART,att=@indef)<eng,0,0>;
+[ਬਾਰੇ]{}""(LEX=P,POS=PST,rel=cnt,att=@about)<eng,0,0>;
+[ਸਾਰੀਆਂ]{}""(LEX=D,POS=QUA,GEN=FEM,NUM=MCL,att=@all)<eng,0,0>;
+[ਅਤੇ]{}""(LEX=C,POS=CCJ,rel=and)<eng,0,0>;
+#[ਸੋਹਣੀ]{}"beautiful"(LEX=J,POS=ADJ,GEN=FEM,NUM=SGT)<eng,0,0>;
+[ਕਿਉਂਕਿ]{}""(LEX=C,POS=SCJ,rel=rsn)<eng,0,0>;
+[ਕਿਤਾਬ]{}"book"(LEX=N,POS=NOU,NUM=SNG)<eng,0,0>;
+[ਕਿਤਾਬਾਂ]{}"book"(LEX=N,POS=NOU,NUM=PLR)<eng,0,0>;
+[ਦੁਆਰਾ]{}""(LEX=P,POS=PST,rel=agt)<eng,0,0>;
+[ਮਰ ਗਿਆ]{}"die"(LEX=V,POS=VER,ATE=PAS,NUM=SNG,GEN=MCL,TRA=NACC)<eng,0,0>;
+[ਕੁਝ]{}""(LEX=D,POS=QUA,att=@paucal)<eng,0,0>;
+[ਲਈ]{}""(LEX=P,POS=PST,rel=gol)<eng,0,0>;
+[ਤੋਂ]{}"from"(LEX=P,POS=PST,rel=src)<eng,0,0>;
+[ਦਿੱਤੀ]{}"give"(LEX=V,POS=VER,ATE=PAS,GEN=FEM,NUM=SG,TRA=TST2)<eng,0,0>;
+[ਜਾ]{}"go"(LEX=V,POS=VER,VBL=INF,TRA=TSTI)<eng,0,0>;
+[ਰਿਹਾ ਹੈ]{}""(LEX=V,POS=AUX,VBL=GER,ASP=PGS,ATE=PRS)<eng,0,0>;<eng,0,0>;
+[ਕੋਲ]{}"have"(LEX=V,POS=VER,TRA=TSTD)<eng,0,0>;
+#[ਹੈ]{}""(LEX=V,POS=COP,TRA=TSTD,ATE=PRS)<eng,0,0>;
+#[ਹੈ]{}""(LEX=V,POS=AUX,TRA=NTRA,ATE=PRS)<eng,0,0>;
+[ਜਾਨ]{}"John"(LEX=N,POS=PPN,GEN=MCL,NUM=SNG,CAS=GNT)<eng,0,0>;
+[ਮਾਰ ਦਿੱਤਾ]{}"kill"(LEX=V,POS=VER,TRA=TSTD,GEN=MCL,ATE=PAS,NUM=SG)<eng,0,0>;
+[ਰਸੋਈ]{}"kitchen"(LEX=N,POS=NOU,NUM=SNG)<eng,0,0>;
+[ਚਾਕੂ]{}"knife"(LEX=N,POS=NOU,NUM=SNG)<eng,0,0>;
+[ਘੱਟ]{}""(LEX=D,POS=QUA,att=@less)<eng,0,0>;
+[ਕਈ]{}""(LEX=D,POS=QUA,att=@mutal)<eng,0,0>;
+#[ਮੈਰੀ]{}"Mary"(LEX=N,POS=NOU,GEN=FEM,NUM=SNG)<eng,0,0>;
+[ਜ਼ਿਆਦਾ]{}""(LEX=D,POS=QUA,att=@more)<eng,0,0>;
+[ਨਵੀਂ]{}"new"(LEX=J,GEN=FEM,POS=ADJ,NUM=SG)<eng,0,0>;
+[ਨਵੀਆਂ]{}"new"(LEX=J,GEN=FEM,POS=ADJ,NUM=PLR)<eng,0,0>;
+[ਦੀ]{}""(LEX=P,POS=PRE,GEN=FEM,rel=mod)<eng,0,0>;
+[ਪੈਰਿਸ]{}"Paris"(LEX=N,POS=PPN,NUM=SNG,SEM=LCT)<eng,0,0>;
+[ਪੀਟਰ]{}"Peter"(LEX=N,POS=PPN,GEN=MCL,NUM=SNG,CAS=NOM)<eng,0,0>;
+#[ਇਹ]{}""(LEX=D,POS=DEM,NUM=SNG,att=@proximal)<eng,0,0>;
+[ਤਕ]{}""(LEX=P,POS=PRE,rel=plt)<eng,0,0>;
+[ਬਹੁਤ ਹੀ]{}""(LEX=D,POS=QUA,att=@extra)<eng,0,0>;
+[ਦੋ]{}"2"(LEX=U,POS=CDN,NUM=PLR)<eng,0,0>;
+[ਬਹੁਤ]{}""(LEX=A,POS=SAV,att=@plus)<eng,0,0>;
+[ਸੀ]{}""(LEX=V,POS=COP,TRA=TSTD,ATE=PAS)<eng,0,0>;
+[ਸੀ]{}""(LEX=V,POS=AUX,TRA=NTRA,ATE=PAS)<eng,0,0>;
+[ਵੇਗਾ]{}""(LEX=V,POS=AUX,TRA=NTRA,att=@future)<eng,0,0>;
+[ਨਾਲ]{}""(LEX=P,POS=PST,rel=ins)<eng,0,0>;
+[ਕਲ੍ਹ]{}"yesterday"(LEX=A,POS=ADV,SEM=TME)<eng,0,0>;
+[ਜਾਵੇਗਾ]{}"go"(LEX=V,POS=VER,VBL=INF,TRA=TSTI,ATE=FUT)<eng,0,0>;
+[ਨੇ]{}""(LEX=P,POS=PST,rel=agt)<eng,0,0>;
+[ਨੂੰ]{}""(LEX=P,POS=PST,rel=obj)<eng,0,0>;
+[ ]{}""(BLK)<eng,0,0>;
+[ਸੋਹਣੀਆਂ]{}"beautiful"(LEX=J,POS=ADJ,GEN=FEM,NUM=PLR)<eng,0,0>;
+#[,]{}""(LEX=C,POS=COO,rel=and)<eng,0,0>;
+[ਤੂੰ]{}"00.@2" (LEX=R,POS=PPR,CAS=NOM,CAS=OBL,PER=2PS,PER=2PP)<eng,255,0>;
+[ਮੈਂ]{}"00.@1" (LEX=R,POS=PPR,CAS=OBL,PER=1PS)<eng,255,0>;
+[ਜਾਂ]{}"or" (LEX=C,POS=CCJ,rel=or)<eng,255,0>;
+#[ਉਹ]{}"she.@female" (LEX=R,POS=PPR,CAS=NOM,PER=3PS)<eng,255,0>;
+[ਪੁਅਲ]{}"Paul"(LEX=N,POS=PPN,NUM=SNGT)<eng,0,0>;
+[ਬਿਲ]{}"Bill"(LEX=N,POS=PPN,NUM=SNGT)<eng,0,0>;
+[ਗੱਡੀ]{}"car" (LEX=N,POS=NOU,NUM=SNG)<eng,0,0>;
+[ਮਹਿੰਗੀ]{}"expensive"(LEX=J,POS=ADJ)<eng,0,0>;
+#[ਸਾਰੀਆਂ]{}"many" (LEX=D,POS=QUA,att=@multal)<eng,255,0>;
+[ਕੱਚ]{}"glass" (LEX=N,POS=NOU,NUM=SNGT)<eng,0,0>;
+[ਦਾ]{}"" (LEX=D,POS=ART,att=@def)<eng,255,0>;
+[ਪਿਆਲਾ]{}"mug" (LEX=N,POS=NOU,NUM=SNG)<eng,0,0>;
+[ਸੋਹਣਾ]{}"beautiful"(LEX=J,POS=ADJ)<eng,0,0>;
+[ਨਵਾਂ]{}"new"(LEX=J,POS=ADJ)<eng,0,0>;
+[ਮਹਿੰਗਾ]{}"expensive"(LEX=J,POS=ADJ)<eng,0,0>;
+[ਸਭ ਤੋ]{}"" (LEX=D,POS=QUA,att=@most)<eng,255,0>;
+[ਕਾਫ਼ੀ]{}"quite"(LEX=A,POS=SAV)<eng,0,0>;
+[ਨਿਹਾਇਤੀ]{}"extremely"(LEX=A,POS=SAV)<eng,0,0>;
+[ਸੱਚੀਓ]{}"really"(LEX=A,POS=SAV)<eng,0,0>;
+[ਭਿਅੰਕਰ]{}"terribly"(LEX=A,POS=SAV)<eng,0,0>;
+[ਲਗਭਗ]{}"almost" (LEX=A,POS=SAV,att=@almost)<eng,255,0>;
+#[ਤੇਰਾਂ]{}"13" (LEX=U,POS=CDN,DIGIT)<eng,255,0>;
+[ਦੂਜੀ]{}"2" (LEX=N,POS=NOU,NUM=SNG)<eng,0,0>;
+[ਛੇ]{}"6" (LEX=U,POS=CDN,DIGIT)<eng,255,0>;
+[ਵੱਡੀਆਂ]{}"large"(LEX=J,POS=ADJ)<eng,0,0>;
+[ਆਖਰੀ]{}"last"(LEX=J,POS=ADJ)<eng,0,0>;
+[ਹੋਰ]{}""(LEX=D,POS=DEM,att=@other)<eng,255,0>;
+[ਵੱਡੀ]{}"big"(LEX=J,POS=ADJ)<eng,0,0>;
+[ਉਪਲਬਧ]{}"available"(LEX=J,POS=ADJ)<eng,0,0>;
+[ਅੱਧੀ]{}"half" (LEX=J,POS=ADJ)<eng,0,0>;
+[ਸਵੀਜ਼ਰਲੈਂਗ]{}"Switzerland"(LEX=N,POS=PPN,NUM=SNGT,LCT)<eng,0,0>;
+#[,]{}""(LEX=C,POS=CRC,rel=or)<eng,0,0>;
+[ਮਹਿੰਗੀਆਂ]{}"expensive"(LEX=J,POS=ADJ,NUM=PLR)<eng,0,0>;
+[ਘੰਟਾ]{}"hour" (LEX=N,POS=NOU,NUM=SNG)<eng,0,0>;
+[ਘੰਟੇ]{}"hours" (LEX=N,POS=NOU,NUM=PLR)<eng,0,0>;
+[ਮਿੰਟ]{}"minute" (LEX=N,POS=NOU,NUM=SNG)<eng,0,0>;
+[ਸਕਿੰਟ]{}"second" (LEX=N,POS=NOU,NUM=SNG)<eng,0,0>;
+[ਤਿਨ]{}"3" (LEX=U,POS=CDN,DIGIT)<eng,255,0>;
+[ਅੱਤੇ]{}"" (LEX=C,POS=CCJ,rel=and)<eng,255,0>;
+[ਅਧਾ]{}"half" (LEX=J,POS=ADJ)<eng,0,0>;
+[ਅਠ]{}"8" (LEX=U,POS=CDN,DIGIT)<eng,255,0>;
+[ਪੰਜ]{}"5" (LEX=U,POS=CDN,DIGIT)<eng,255,0>;
+[ਵਜੇ]{}"o'clock"(LEX=A,POS=AAV)<eng,0,0>;
+#[ਓ]{}"0" (LEX=U,POS=CDN,DIGIT)<eng,255,0>;
+[ਪੰਦਰਾ]{}"15" (LEX=U,POS=CDN,DOUBLE)<eng,255,0>;
+[ਸਵਾ]{}"quarter"(LEX=N,POS=NOU,NUM=SNG)<eng,0,0>; one quarter
+[ਸਵੇਰੇ]{}"morning" (LEX=N,POS=NOU,NUM=SNG)<eng,0,0>;
+[ਏ ਅਮ]{}""(LEX=A,POS=AAV,TIME=AM)<eng,0,0>;
+[ਪੀ ਅਮ]{}""(LEX=A,POS=AAV,TIME=PM)<eng,0,0>;
+[ਤੋ ਘਟ]{}"" (LEX=D,POS=SAV,att=@least)<eng,255,0>;
+[ਬਹੁਤ ਜ਼ਿਆਦਾ]{}"" (LEX=D,POS=SAV,att=@extra)<eng,255,0>;
+[13]{}"13" (LEX=U,POS=CDN,DIGIT)<eng,255,0>;
+[ਚੁਤਾਲਵੀ]{}"44" (LEX=U,POS=CDN,NUM=PLR,DOUBLE,att=@ordinal))<eng,255,0>;
+[ਸਤਾਰਾਂ]{}"17"(LEX=U,POS=CDN,NUM=PLR,DOUBLE)<eng,0,0>;
+[ਅਠਾਰਾਂ]{}"18"(LEX=U,POS=CDN,NUM=PLR,DOUBLE)<eng,0,0>;
+[ਬਟਾ]{}"/"(VATA)<eng,0,0>;
+[ਸਿਫ਼ਰ]{}"0"(LEX=U,POS=CDN,DIGIT, NUM=SNG)<eng,0,0>;
+"ਖਾਸੀ" - [ਖਾਸੀ]{}"quite"(LEX=A,POS=SAV)<eng,0,0>;
+[ਵਾਕਈ]{-1}"really"(LEX=A,  POS=SAV)<eng,0,0>;
+[ਦੂਜੀਆਂ]{-1}"other"(LEX=D,  POS=DEM,  att=@other)<eng,255,0>;
+[ਦੂਜੀ]{-1}"2"(LEX=U,  POS=ORD,  DIGIT,  @ordinal)<eng,255,0>;
+[ਕੁਝ]{}"00.@paucal" (LEX=R,POS=NPR,VDRULE)<eng,255,0>;
+[ਕੋਈ ਬੰਦੇ]{}"00.@any.@person" (LEX=R,POS=NPR)<eng,255,0>;
+[ਦੂਸਰਾ]{}"00.@other" (LEX=R,POS=NPR)<eng,255,0>; anybody has another
+[ਓੱਹ]{}"00.@3.@male" (LEX=R,POS=PPR,CAS=NOM,PER=3PS)<eng,255,0>;
+[ਪਹੁੰਚ ਗਿਆ]{}"arrive"(LEX=V,POS=VER,TRA=TSTI,ATE=PAS,ATE=PTP)<eng,0,0>;
+[ਪਹੁੰਚਦਾ ਹੈ]{}"arrive"(LEX=V,POS=VER,TRA=TSTI,PER=3PS,ATE=PRS)<eng,0,0>;
+[ਪਹੁੰਚੇਗਾ]{}"arrive"(LEX=V,POS=VER,TRA=TSTI,ATE=FUT)<eng,0,0>;
+#[ਪਹੁੰਚ]{}"arrive"(LEX=V,POS=VER,TRA=TSTI,ATE=GER)<eng,0,0>; he is arriving
+[ਰਿਹਾ ਸੀ]{}""(LEX=V,POS=AUX,VBL=GER,ASP=PGS,ATE=PAS)<eng,0,0>;
+[ਰਿਹਾ ਹੋਵੇਗਾ]{}""(LEX=V,POS=AUX,VBL=GER,ASP=PGS,ATE=FUT)<eng,0,0>;
+[ਚੁੱਕਾ ਸੀ]{}"had" (LEX=V,POS=AUX,ATE=PAS,att=@past;@perfect)<eng,255,0>;
+[ਚੁੱਕਾ ਹੈ]{}"" (LEX=V,POS=AUX,ATE=PRS,PER=3PS,att=@present;@perfect)<eng,255,0>;
+#[ਚੁੱਕਾ]{}"" (LEX=V,POS=AUX,ATE=INF,att=@perfect)<eng,255,0>;
+[ਪਹੁੰਚਣ]{}"arrive"(LEX=V,POS=VER,TRA=TSTI,ATE=GER,att=@recent)<eng,0,0>;
+[ਸਕਿਆ ਹੈ]{}"" (LEX=V,POS=AUX,POS=MOV,att=@possibility)<eng,255,0>;
+[ਸਕਦਾ ਹੈ]{}"" (LEX=V,POS=MOV,att=@ability)<eng,255,0>;
+[ਸ਼ਾਇਦ]{}"" (LEX=V,POS=MOV,att=@possibility,SPECIAL2)<eng,255,0>;
+[ਜਰੂਰ]{}"" (LEX=V,POS=AUX,POS=MOV,att=@obligation)<eng,255,0>;
+[ਉਹਨੂੰ]{}"00.@3.@male" (LEX=R,POS=PPR,CAS=NOM,PER=3PS)<eng,255,0>;
+[ਪਹੁੰਚਣਾ]{}"arrive"(LEX=V,POS=VER,TRA=TSTI)<eng,0,0>;
+[ਚਾਹੀਦਾ ਹੈ]{}"" (LEX=V,POS=AUX,POS=MOV,att=@probability)<eng,255,0>;
+[ਪਉਗਾ]{}"" (LEX=V,POS=AUX,POS=MOV,ATE=PRS,att=@obligation;@present)<eng,255,0>;
+[ਯੋਗ ਹੋਵੇਗਾ]{}""(LEX=V,POS=MOV,att=@imminent)<eng,255,0>;
+[ਹੋਉਗਾ]{}"" (LEX=V,POS=AUX,ATE=PRS,PER=3PS,att=@present;@perfect)<eng,255,0>;
+#[ਪਹੁੰਚਿਆ]{}"arrive"(LEX=V,POS=VER,TRA=TSTI,ATE=GER)<eng,0,0>;
+[ਨਹੀ]{}"" (LEX=A,POS=SAV,att=@not)<eng,255,0>;
+[ਸਕਿਆ]{}"" (LEX=V,POS=AUX,POS=MOV,att=@possibility)<eng,255,0>;
+[ਸਕਦਾ]{}"" (LEX=V,POS=AUX,POS=MOV,att=@ability)<eng,255,0>;
+[ਨਾ]{}"" (LEX=A,POS=SAV,att=@not)<eng,255,0>;
+#[ਪਹੁੰਚੇ]{}"arrive"(LEX=V,POS=VER,TRA=TSTI,ATE=GER)<eng,0,0>; he is arriving
+[ਪਹੁੰਚਦਾ]{}"arrive"(LEX=V,POS=VER,TRA=TSTI,ATE=GER,SPECIAL)<eng,0,0>; he is arriving
+[ਚਾਹੀਦਾ ਸੀ]{}"" (LEX=V,POS=AUX,POS=MOV,att=@probability;@past;@perfect)<eng,255,0>;
+[ਰਹਿਣਾ]{}"" (LEX=V,POS=COP,POS=AUX,ATE=PTP)<eng,255,0>;
+[ਪਹੁੰਚਦੇ]{}"arrive"(LEX=V,POS=VER,TRA=TSTI,ATE=GER)<eng,0,0>;
+[ਭੁੱਖਾ]{}"hungry"(LEX=J,POS=ADJ)<eng,0,0>;
+[ਅਠਾਰਾ]{}"18"(LEX=U,POS=CDN,NUM=PLR,DOUBLE)<eng,0,0>;
+[ਉਨਾਠ]{}"59"(LEX=U,POS=CDN,NUM=PLR,DOUBLE)<eng,0,0>;
+[ਸਾਢੇ]{}".5"(LEX=U,POS=CDN,NUM=PLR,DIGIT,FLOAT)<eng,0,0>;
+[,]{}""(PUT=COMMA)<nl,0,0>;
+#[ਇਹ]{}"00.@1"(LEX=R,POS=PPR,CAS=NOM,CAS=OBL,PER=3PS,@proximal)<eng,255,0>;
+[ਇਕ]{}"1"(LEX=U,POS=CDN,DIGIT, NUM=SNG)<eng,0,0>;
+[ਪੰਜ]{}"5"(LEX=U,POS=CDN,DIGIT,NUM=PLR)<eng,0,0>;
+[ਅੱਠ]{}"8"(LEX=U,POS=CDN,NUM=PLR,DIGIT)<eng,0,0>;
+[ਦੱਸ]{}"10"(LEX=U,POS=CDN,NUM=PLR,DOUBLE)<eng,0,0>;
+[ਗਿਆਰਾਂ]{}"11"(LEX=U,POS=CDN,NUM=PLR,DOUBLE)<eng,0,0>;
+[ਬਾਰ੍ਹਾਂ]{}"12"(LEX=U,POS=CDN,NUM=PLR,DOUBLE)<eng,0,0>;
+[ਪੰਚਵੰਜਾ]{}"55"(LEX=U,POS=CDN,NUM=PLR,DOUBLE)<eng,0,0>;
+[ਚੌਦਾਂ]{}"14"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਪੰਦਰਾਂ]{}"15"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਸੋਲਾਂ]{}"16"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਅਠਾਸੀ]{}"88"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਉੱਨੀ]{}"19"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਵੀਹ]{}"20"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਤੀਹ]{}"30"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਚਾਲੀ]{}"40"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਪੰਜਾਹ]{}"50"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਸੱਠ]{}"60"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਅੱਸੀ]{}"80"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਨੱਬੇ]{}"90"(LEX=U,POS=CDN,NUM=PLR,DOUBLE)<eng,0,0>;
+[ਇੱਕੀ]{}"21"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਬੱਤੀ]{}"32"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਤਿਰਤਾਲੀ]{}"43"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਚੁਰੰਜਾ]{}"54"(LEX=U,POS=CDN,NUM=PLR,DOUBLE)<eng,0,0>;
+[ਪੈਂਹਠ]{}"65"(LEX=U,POS=CDN,NUM=PLR,DOUBLE)<eng,0,0>;
+[ਛਿਹੱਤਰ]{}"76"(LEX=U,POS=CDN,NUM=PLR,DOUBLE)<eng,0,0>;
+[ਸਤਾਸੀ]{}"87"(LEX=U,POS=CDN,NUM=PLR,DOUBLE)<eng,0,0>;
+[ਅਠਾਨਵੇਂ]{}"98"(LEX=U,POS=CDN,NUM=PLR,DOUBLE)<eng,0,0>;
+[ਪੰਜ]{}"5"(LEX=U,POS=CDN,NUM=PLR,DIGIT)<eng,0,0>;
+[ਪਹਿਲਾ]{}"1.@ordinal"(LEX=U,POS=ORD,DIGIT)<eng,0,0>;
+[ਦੂਜਾ]{}"2"(LEX=U,POS=ORD,NUM=PLR,DIGIT,@ordinal)<eng,0,0>;
+[ਤੀਜਾ]{}"3"(LEX=U,POS=ORD,NUM=PLR,DIGIT,@ordinal)<eng,0,0>;
+[ਚੌਥਾ]{}"4"(LEX=U,POS=ORD,NUM=PLR,DIGIT,@ordinal)<eng,0,0>;
+[ਇੱਕੀ]{}"21"(LEX=U,POS=CDN,NUM=PLR,DOUBLE)<eng,0,0>;
+[ਬਾਈ]{}"22"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਤੇਈ]{}"23"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਚੋਵੀ]{}"24"(LEX=U,POS=CDN,NUM=PLR,DOUBLE)<eng,0,0>;
+[ਤੇਰਵਾਂ]{}"13"(LEX=U,POS=ORD,NUM=PLR,att=@ordinal)<eng,0,0>;
+[ਚੌਦਵਾਂ]{}"14"(LEX=U,POS=ORD,NUM=PLR,att=@ordinal)<eng,0,0>;
+[ਪੰਦਰਵਾਂ]{}"15"(LEX=U,POS=ORD,NUM=PLR,att=@ordinal)<eng,0,0>;
+[ਸੋਲਵਾਂ]{}"16"(LEX=U,POS=ORD,NUM=PLR,att=@ordinal)<eng,0,0>;
+[ਸਤਾਰਵਾਂ]{}"17"(LEX=U,POS=ORD,NUM=PLR,att=@ordinal)<eng,0,0>;
+[ਅਠਾਰਵਾਂ]{}"18"(LEX=U,POS=ORD,NUM=PLR,att=@ordinal)<eng,0,0>;
+[ਬਾਈ]{}"22"(LEX=U,POS=CDN,NUM=PLR,DOUBLE)<eng,0,0>;
+[ਦਸ਼ਮਲਵ]{}"." (LEX=N,POS=NOU,NUM=SNG)<eng,0,0>;
+[ਦੋ]{}"2"(LEX=U,POS=CDN,NUM=PLR)<eng,0,0>;
+[ਚਰਵੰਜਵਾਂ]{}"54"(LEX=U,POS=ORD,NUM=PLR,att=@ordinal)<eng,0,0>;
+[ਅਠਾਨਮਾਂ]{}"98"(LEX=U,POS=ORD,NUM=PLR,att=@ordinal)<eng,0,0>;
+[ਦਸ]{}"10"(LEX=U,POS=CDN,NUM=PLR,DOUBLE)<eng,0,0>;
+[ਤਰਤਾਲੀ]{}"43"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਚੁਤਾਲੀ]{}"44"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਪੈਂਹਟ]{}"65"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਤੇਤੀ]{}"33"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਇਕਾਨਵੇਂ]{}"91"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਛਿਆਹਟ]{}"66"(LEX=U,POS=CDN,NUM=PLR,DOUBLE)<eng,0,0>;
+[ਸਤੱਤਰ]{}"77"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਚੋਵਾਲੀ]{}"44"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਗਿਆਰਵਾਂ]{}"11"(LEX=U,POS=ORD,NUM=PLR,att=@ordinal)<eng,0,0>;
+[ਬਾਰ੍ਹਵਾਂ]{}"12"(LEX=U,POS=ORD,NUM=PLR,att=@ordinal)<eng,0,0>;
+[ਪੰਜ]{}"5" (LEX=U,POS=CDN,DIGIT)<eng,255,0>;
+[13]{}"13" (LEX=U,POS=CDN,DIGIT)<eng,255,0>;
+[ਚੁਤਾਲਵੀ]{}"44" (LEX=U,POS=CDN,NUM=PLR,DOUBLE,att=@ordinal))<eng,255,0>;
+[ਸਤਾਰਾਂ]{}"17"(LEX=U,POS=CDN,NUM=PLR,DOUBLE)<eng,0,0>;
+[ਅਠਾਰਾਂ]{}"18"(LEX=U,POS=CDN,NUM=PLR,DOUBLE)<eng,0,0>;
+[ਬਟਾ]{}"/"(VATA)<eng,0,0>;
+[ਸਿਫ਼ਰ]{}"0"(LEX=U,POS=CDN,DIGIT, NUM=SNG)<eng,0,0>;
+[ਦੂਜੀ]{-1}"2"(LEX=U,  POS=ORD,  DIGIT,  @ordinal)<eng,255,0>;
+[ਅਠਾਰਾ]{}"18"(LEX=U,POS=CDN,NUM=PLR,DOUBLE)<eng,0,0>;
+[ਉਨਾਠ]{}"59"(LEX=U,POS=CDN,NUM=PLR,DOUBLE)<eng,0,0>;
+[ਸਾਢੇ]{}".5"(LEX=U,POS=CDN,NUM=PLR,DIGIT,FLOAT)<eng,0,0>;
+[ਕਿਤਾਬ]{}"book" (LEX=N,POS=NOU,NUM=SNG)<eng,0,0>; a book, the book
+[ਕਿਤਾਬਾਂ]{}"book" (LEX=N,POS=NOU,NUM=PLR)<eng,0,0>; the books, many
+[ਗੱਡੀ]{}"car" (LEX=N,POS=NOU,NUM=SNG)<eng,0,0>; beautiful car
+[ਗੱਡੀਆਂ]{}"car" (LEX=N,POS=NOU,NUM=PLR)<eng,0,0>; many new beautiful
+[ਕੱਚ]{}"glass" (LEX=N,POS=NOU,NUM=SNGT)<eng,0,0>; glass mug
+[ਰਸੋਈ]{}"kitchen" (LEX=N,POS=NOU,NUM=SNG)<eng,0,0>; he killed her in
+[ਚਾਕੂ]{}"knife" (LEX=N,POS=NOU,NUM=SNG)<eng,0,0>; he killed her
+[ਮਿੰਟਾਂ]{}"minute" (LEX=N,POS=NOU,NUM=PLR)<eng,0,0>; fifteen minutes
+[ਪਿਆਲਾ]{}"mug" (LEX=N,POS=NOU,NUM=SNG)<eng,0,0>; glass mug
+[ਦੁਪਿਹਰ]{}"noon" (LEX=N,POS=NOU,NUM=SNGT)<eng,0,0>; he is arriving at
+[ਮੇਜ਼]{}"table"(LEX=N,POS=N,NUM=SNG)<eng,0,0>; the book on the table
+[ਰੇਲ ਗੱਡੀ]{}"train" (LEX=N,POS=NOU,NUM=SNG)<eng,0,0>; the train to
+[ਬਿਲ]{}"Bill"(LEX=N,POS=PPN,NUM=SNGT)<eng,0,0>;
+[ਜਨੇਵਾ]{}"Geneva"(LEX=N,POS=PPN,NUM=SNGT,SEM=PLE)<eng,0,0>;
+[ਜਾਨ]{}"John"(LEX=N,POS=PPN,NUM=SNGT)<eng,0,0>;
+[ਮੈਰੀ]{}"Mary"(LEX=N,POS=PPN,NUM=SNGT)<eng,0,0>;
+[ਪੀਟਰ]{}"Peter"(LEX=N,POS=PPN,NUM=SNGT)<eng,0,0>;
+[ਪੈਰਿਸ]{}"Paris"(LEX=N,POS=PPN,NUM=SNGT,SEM=PLE)<eng,0,0>;
+[ਪੁਅਲ]{}"Paul"(LEX=N,POS=PPN,NUM=SNGT)<eng,0,0>;
+#[ਰੋਮ]{}"Rome"(LEX=N,POS=PPN,NUM=SNGT,SEM=PLE)<eng,0,0>;
+[ਸਵੀਜ਼ਰਲੈਂਗ]{}"Switzerland"(LEX=N,POS=PPN,NUM=SNGT,SEM=PLE,LCT)<eng,0,0>;
+[ਸੋਹਣੀ]{}"beautiful"(LEX=J,POS=ADJ)<eng,0,0>; beautiful book
+[ਮਹਿੰਗੀ]{}"expensive"(LEX=J,POS=ADJ)<eng,0,0>; it is beautiful, big
+[ਨਵੀਂ]{}"new"(LEX=J,POS=ADJ)<eng,0,0>; new book
+[ਕੱਲ੍ਹ]{}"yesterday"(LEX=A,POS=AAV,SEM=TME)<eng,0,0>; he killed her
+[ਨਿਹਾਇਤ]{}"extremely"(LEX=A,POS=SAV)<eng,0,0>; an extremely
+[ਨਹੀ]{}"" (LEX=A,POS=SAV,att=@not)<eng,255,0>; he did not arrive, it
+[ਬਹੁਤ]{}"" (LEX=D,POS=QUA,att=@multal)<eng,255,0>; very beautiful
+[ਪਹੁੰਚਦਾ]{}"arrive"(LEX=V,POS=VER,TRA=TSTI,PER=3PS,ATE=PRS)<eng,0,0>;
+[ਪਹੁੰਚ]{}"arrive"(LEX=V,POS=VER,TRA=TSTI,VBL=PTP)<eng,0,0>; he
+#[ਪਹੁੰਚ]{}"arrive"(LEX=V,POS=VER,TRA=TSTI,VBL=GER)<eng,0,0>; he is
+[ਮਾਰ ਦਿੱਤਾ]{}"kill"(LEX=V,POS=VER,TRA=TSTD,ATE=PAS,VBL=PTP)<eng,0,0>;
+#[ਇਕ]{}"" (LEX=D,POS=ART,att=@indef)<eng,255,0>; an extremely
+[ਹੋਰ]{}"" (LEX=D,POS=DEM,att=@other)<eng,255,0>; other books
+[ਮੇਰੀ]{}"00.@1" (LEX=D,POS=POD)<eng,255,0>; my book
+#[ਤੁਹਾਡੀ]{}"00.@2" (LEX=D,POS=POD)<eng,255,0>; your book
+[ਉਸਦੀ]{}"00.@3.@female" (LEX=D,POS=POD)<eng,255,0>; her book
+[ਉਸਦੀਆਂ]{}"00.@3.@male" (LEX=D,POS=POD)<eng,255,0>; his book
+[ਇਹਦੀ]{}"00.@3" (LEX=D,POS=POD)<eng,255,0>; its book
+[ਸਾਡੀ]{}"00.@1.@pl" (LEX=D,POS=POD)<eng,255,0>; our book
+[ਉਹਨਾਂ ਦੀ]{}"00.@3.@pl" (LEX=D,POS=POD)<eng,255,0>; their book
+[ਸਾਰੀਆਂ]{}"" (LEX=D,POS=QUA,att=@all)<eng,255,0>; all books
+[ਕੁਝ]{}"" (LEX=D,POS=QUA,att=@paucal;@less)<eng,255,0>; few books
+[ਬਥੇਰੀਆਂ]{}"" (LEX=D,POS=QUA,att=@multal)<eng,255,0>; many books
+[is]{}""(LEX=I,POS=AUX,ATE=PRS,PER=3PS,att=@present)<eng,255,0>;
+[did]{}""(LEX=I,POS=AUX,att=@past)<eng,255,0>; he did not arrive
+[must]{}""(LEX=I,POS=AUX,POS=MOV,att=@obligation)<eng,255,0>; he
+[will]{}""(LEX=I,POS=AUX,att=@future)<eng,255,0>; he will arrive
+[ਉਹ]{}"00.@3.@male" (LEX=R,POS=PPR,CAS=NOM,PER=3PS)<eng,255,0>; he
+#[ਉਸਨੂੰ]{}"00.@3.@male" (LEX=R,POS=PPR,CAS=OBL,PER=3PS,OBJ)<eng,255,0>;
+[ਉਹ]{}"00.@3.@female" (LEX=R,POS=PPR,CAS=NOM,PER=3PS)<eng,255,0>;
+#[ਉਸਨੂੰ]{}"00.@3.@female" (LEX=R,POS=PPR,CAS=OBL,PER=3PS)<eng,255,0>; he
+[ਆਪਣੇ ਆਪ ਨੂੰ]{}"00.@3.@male" (LEX=R,POS=FPR,PER=3PS)<eng,255,0>; he
+[ਕਿਸ]{}"00.@wh" (LEX=R,POS=IPR)<eng,255,0>; who killed her?
+[ਬਾਰੇ]{}"about" (LEX=P,POS=PRE,rel=cnt,att=@about)<eng,255,0>; the
+[ਤੋਂ ਬਾਅਦ]{}"after" (LEX=P,POS=PRE,rel=tim,att=@after)<eng,255,0>; few
+[ਤੇ]{}"at" (LEX=P,POS=PRE,rel=plc,att=@at)<eng,255,0>; the book at
+[ਪਹਿਲਾਂ]{}"before" (LEX=P,POS=PRE,rel=tim,att=@before)<eng,255,0>;
+[ਦੇ ਪਿੱਛੇ]{}"behind" (LEX=P,POS=PRE,rel=plc,att=@behind)<eng,255,0>;
+[ਦੇ ਨੇੜੇ]{}"beside" (LEX=P,POS=PRE,rel=plc,att=@beside)<eng,255,0>;
+[ਦੂਰ]{}"far from" (LEX=P,POS=PRE,rel=plc,att=@far_from)<eng,255,0>;
+[ਲਈ]{}"for" (LEX=P,POS=PRE,rel=ben,att=@for)<eng,255,0>; the book
+[ਤੋਂ]{}"from" (LEX=P,POS=PRE,rel=plc,att=@from)<eng,255,0>; the
+[ਵਿੱਚ]{}"in" (LEX=P,POS=PRE,rel=plc)<eng,255,0>; the book in the
+[ਨੇੜੇ]{}"near" (LEX=P,POS=PRE,rel=plc,att=@near)<eng,255,0>; the book
+[ਦੀ]{}"of" (LEX=P,POS=PRE,rel=mod)<eng,255,0>; the book of John
+[ਉੱਤੇ]{}"on" (LEX=P,POS=PRE,rel=plc,att=@on)<eng,255,0>; the book on
+[ਮੁੱਢੋਂ]{}"since" (LEX=P,POS=PRE,rel=tim,att=@since)<eng,255,0>; few
+[ਦੁਆਰਾ]{}"through" (LEX=P,POS=PRE,rel=plc,att=@through)<eng,255,0>;
+[ਤਕ]{}"to" (LEX=P,POS=PRE,rel=plc,att=@to)<eng,255,0>; the train to
+[ਥੱਲੇ]{}"under" (LEX=P,POS=PRE,rel=plc,att=@under)<eng,255,0>; the
+[ਤੀਕ]{}"until" (LEX=P,POS=PRE,rel=tim,att=@until)<eng,255,0>; few
+[ਨਾਲ]{}"with" (LEX=P,POS=PRE,rel=man,att=@with)<eng,255,0>; John
+[ਅਤੇ]{}"and" (LEX=C,POS=CCJ,rel=and)<eng,255,0>; John and Mary
+[ਜਾਂ]{}"or" (LEX=C,POS=CCJ,rel=or)<eng,255,0>; John or Mary
+[ ]{}""(BLK)<eng,0,0>;
+[ਦੇ ਸਾਹਮਣੇ]{}"" (LEX=P,POS=PRE,rel=plc,att=@in_front_of)<eng,255,0>; the
+#" " - [ ]{}""(BLK)<eng,0,0>;
+[ਦੇ ਨੇੜੇ]{}"" (LEX=P,POS=PRE,rel=plc,att=@beside)<eng,255,0>; the book
+[ਦੇ ਨਜ਼ਦੀਕ]{}""(LEX=P,POS=PRE,rel=plc,att=@near)<eng,255,0>; the book
+[ਤੋਂ ਪਰੇ]{}"" (LEX=P,POS=PRE,rel=plc,att=@far_from)<eng,255,0>; the book
+[ਨੂੰ]{}""(LEX=P,POS=PRE,rel=plc,att=@to)<eng,255,0>; the train to
+[ਵਿਚੋਂ]{}"" (LEX=P,POS=PRE,rel=plc,att=@through)<eng,255,0>; the train
+[ਤੋਂ ਪਹਿਲਾ]{}""(LEX=P,POS=PRE,rel=tim,att=@before)<eng,255,0>; few
+[ਤੋਂ ਲੈ ਕੇ]{}"" (LEX=P,POS=PRE,rel=tim,att=@since)<eng,255,0>;
+[ਤੱਕ]{}"" (LEX=P,POS=PRE,rel=tim,att=@until)<eng,255,0>;
+#[,]{}""(LEX=C,POS=COO,rel=and,COMMA)<eng,0,0>;
+[ਕਈ]{}""(LEX=D,POS=QUA,att=@multal)<eng,255,0>;
+[ਨਵੀਆਂ]{}"new"(LEX=J,POS=ADJ)<eng,0,0>; new book
+[ਸੋਹਣੀਆਂ]{}"beautiful"(LEX=J,POS=ADJ)<eng,0,0>; beautiful book
+[ਮਹਿੰਗੀਆਂ]{}"expensive"(LEX=J,POS=ADJ)<eng,0,0>; it is beautiful, big
+[ਸੋਹਣਾ]{}"beautiful"(LEX=J,POS=ADJ)<eng,0,0>; beautiful book
+[ਨਵਾਂ]{}"new"(LEX=J,POS=ADJ)<eng,0,0>; new book
+[ਬਹੁਤ ਜ਼ਿਆਦਾ]{}"extremely"(LEX=A,POS=SAV)<eng,0,0>; an extremely
+[ਓਹ]{}"00.@3.@male" (LEX=R,POS=PPR,CAS=NOM,PER=3PS)<eng,255,0>; he
+[ਪਹੁੰਚਦਾ ਹੈ]{}"arrive"(LEX=V,POS=VER,TRA=TSTI,PER=3PS,ATE=PRS)<eng,0,0>;
+[ਜਰੂਰ]{}""(LEX=I,POS=AUX,POS=MOV,att=@obligation)<eng,255,0>; he must
+[ਪਹੁੰਚੇ]{}"arrive"(LEX=V,POS=VER,TRA=TSTI,VBL=INF)<eng,0,0>; he will
+[ਪਹੁੰਚਿਆ]{}"arrive"(LEX=V,POS=VER,TRA=TSTI,VBL=INF,ATE=PAS)<eng,0,0>;
+[ਉਸਨੇ]{}"00.@3.@male"(LEX=R,POS=PPR,CAS=NOM,PER=3PS)<eng,255,0>; he
+#[ਇਹ]{}"00.@3"(LEX=R,POS=PPR,CAS=NOM,CAS=OBL,PER=3PS)<eng,255,0>; it
+[ਹੈ]{}"" (LEX=I,POS=AUX,ATE=PRS,PER=3PS,att=@present)<eng,255,0>; he
+[ਉਹਦੀ]{}"00.@3.@male" (LEX=D,POS=POD)<eng,255,0>; his book
+#[ਦੇ]{}""(LEX=P,POS=PRE,rel=plc,att=@at)<eng,255,0>; the book at the table
+[ਮਹਿੰਗਾ]{}"expensive"(LEX=J,POS=ADJ)<eng,0,0>; it is beautiful, big and expensive
+[ਪਹੁੰਚ ਗਿਆ]{}"arrive"(LEX=V,POS=VER,TRA=TSTI,ATE=PAS,VBL=PTP)<eng,0,0>; he arrived, he has arrived
+[ਪਹੁੰਚੇਗਾ]{}"arrive"(LEX=V,POS=VER,TRA=TSTI,VBL=INF,att=@future)<eng,0,0>;
+[ਪਹੁੰਚ ਰਿਹਾ]{}"arrive"(LEX=V,POS=VER,TRA=TSTI,VBL=GER)<eng,0,0>; he is arriving
+[ਸੀ]{}"" (LEX=I,POS=AUX,ATE=PAS,PER=1PS,PER=3PS,att=@past)<eng,255,0>; he was arriving
+#[ਹੈ]{}""(LEX=I,POS=AUX,ATE=PRS,PER=3PS,att=@present)<eng,255,0>; he is arriving
+[ਚੁੱਕਾ]{}""(LEX=I,POS=AUX,ATE=PAS,VBL=PTP,att=@past;@perfect)<eng,255,0>; he had arrived
+#[ਨਹੀਂ]{}"" (LEX=D,POS=QUA,att=@no)<eng,255,0>; no book
+#[ ]{}" "(BLK)<eng,0,0>;
+#[ਉਸ]{}"00.@3.@female" (LEX=R,POS=PPR,CAS=OBL,PER=3PS)<eng,255,0>; he loves her
+[ਨਾਲ]{}"" (LEX=P,POS=PRE,rel=man,att=@with)<eng,255,0>; John kill Mary with a knife
+[ਕਰਕੇ]{}"" (LEX=P,POS=PRE,rel=rsn,att=@because_of,THAPAR)<eng,255,0>; John killed Mary because of Peter
+[ਮਾਰਿਆ]{}"kill"(LEX=V,POS=VER,TRA=TSTD,ATE=PAS,ATE=PTP)<eng,0,0>; John killed Mary
+[ਕਿਸਨੇ]{}"00.@wh" (LEX=R,POS=IPR)<eng,255,0>; who is he?
+[?]{}""(PUT,QMARK,XP)<eng,0,0>;
+[ਤੇਰਾਂ]{}"13"(LEX=U,POS=CDN,NUM=PLR,DOUBLE)<eng,0,0>;
+[ਹੋਰ ਕੋਈ]{}""(LEX=D,POS=DEM,att=@other)<eng,255,0>; other books
+[ਹਰੇਕ]{}""(LEX=D,POS=QUA,att=@each)<eng,255,0>; each book
+[ਓਹੀ]{}"" (LEX=D,POS=DEM,att=@same)<eng,255,0>; the same book
+[ਕਿਹੜੀ]{}"" (LEX=D,POS=DEM,att=@wh)<eng,255,0>; which book
+[ਕੋਈ ਵੀ]{}"" (LEX=D,POS=QUA,att=@any)<eng,255,0>; any book
+[ਦੋਵੇਂ]{}"" (LEX=D,POS=QUA,att=@both)<eng,255,0>; both books
+[ਕਾਫ਼ੀ]{}"" (LEX=D,POS=QUA,DIS=AFT,att=@enough)<eng,255,0>; enough books
+[ਹਰ]{}"" (LEX=D,POS=QUA,att=@every)<eng,255,0>; every book
+[ਕੁਝ ਕੁ]{}"" (LEX=D,POS=QUA,att=@less)<eng,255,0>; less books
+[ਵਧੇਰੀਆਂ]{}"" (LEX=D,POS=QUA,att=@more)<eng,255,0>; more books
+[ਸਭ ਤੋਂ ਵੱਧ]{}"" (LEX=D,POS=QUA,att=@most)<eng,255,0>; most books
+[ਵੱਧ]{}"" (LEX=D,POS=QUA,att=@multal)<eng,255,0>; several books
+[ਚੰਦ]{}"" (LEX=D,POS=QUA,att=@paucal)<eng,255,0>; some books
+[ਕੁਝ ਇਕ]{}"" (LEX=D,POS=QUA,att=@paucal)<eng,255,0>; a couple of books
+[ਬਹੁਤ ਸਾਰੀਆਂ]{}"" (LEX=D,POS=QUA,att=@multal)<eng,255,0>; a lot of books
+[ਵਾਧੂ]{}"" (LEX=D,POS=QUA,att=@multal)<eng,255,0>; much money
+[ਧਨ]{}"money" (LEX=N,POS=NOU,NUM=SNGT)<eng,0,0>; a little money
+[ਥੋੜਾ ਕੁ]{}"" (LEX=D,POS=QUA,att=@paucal)<eng,255,0>; a little money
+#[ਇਹ]{}"" (LEX=D,POS=DEM,NUM=PLR,att=@proximal)<eng,255,0>; these books
+[ਬਹੁਤ ਹੀ]{}"" (LEX=A,POS=SAV,att=@extra)<eng,255,0>; too many books
+[ਜਿਆਦਾ]{}"" (LEX=D,POS=QUA,att=@multal)<eng,255,0>; many books
+[ਆਪਣੀ]{}"" (LEX=D,POS=DEM,att=@own)<eng,255,0>; my own book
+[ਮੇਜ]{}"table"(LEX=N,POS=N,NUM=SNG)<eng,0,0>; the book on the table
+[ਉੱਪਰ]{}"" (LEX=P,POS=PRE,rel=plc,att=@above)<eng,255,0>; the book above the table
+[ਵਿਰੁੱਧ]{}"" (LEX=P,POS=PRE,rel=man,att=@against)<eng,255,0>; the book against Paris
+[ਮੇਜਾਂ]{}"table"(LEX=N,POS=N,NUM=PLR)<eng,0,0>; the book among the tables
+[ਵਿਚਕਾਰ]{}"" (LEX=P,POS=PRE,rel=plc,att=@among)<eng,255,0>; the book among the tables
+[ਦੁਆਲੇ]{}"" (LEX=P,POS=PRE,rel=plc,att=@around)<eng,255,0>; the book around the tables
+[ਤਲ਼ੇ]{}"" (LEX=P,POS=PRE,rel=plc,att=@below)<eng,255,0>; the book below the table
+[ਹੇਠਾਂ]{}"" (LEX=P,POS=PRE,rel=plc,att=@beneath)<eng,255,0>; the book beneath the table
+[ਸਮੀਪ]{}"" (LEX=P,POS=PRE,rel=plc,att=@close_to)<eng,255,0>; the book close to the table
+[ਬਕਸੇ]{}"box" (LEX=N,POS=NOU,NUM=SNG)<eng,0,0>; the book in the box
+[ਦੇ ਅੰਦਰ]{}"" (LEX=P,POS=PRE,rel=plc,att=@inside)<eng,255,0>; the book inside the box
+[ਲਾਗੇ]{}"" (LEX=P,POS=PRE,rel=plc,att=@next_to)<eng,255,0>; the book next to the box
+[ਤੋਂ ਬਾਹਰ]{}"" (LEX=P,POS=PRE,rel=plc,att=@out_of)<eng,255,0>; the book out of the table
+[ਦੇ ਬਾਹਰ]{}"" (LEX=P,POS=PRE,rel=plc,att=@outside)<eng,255,0>; the book outside the table
+[ਥੱਲਿਓਂ]{}"" (LEX=P,POS=PRE,rel=plc,att=@underneath)<eng,255,0>; the book underneath the table
+[ਤਸਵੀਰਾਂ]{}"picture" (LEX=N,POS=NOU,NUM=PLR)<eng,0,0>; the book with pictures
+[ਦੇ ਵਿਚ ਵਿਚ]{}"" (LEX=P,POS=PRE,rel=plc,att=@within)<eng,255,0>; the book within the box
+[ਬਗੈਰ]{}"" (LEX=P,POS=PRE,rel=man,att=@without)<eng,255,0>; the book without pictures
+[ਦਰਮਿਆਨ]{}"" (LEX=P,POS=PRE,rel=plc,att=@between)<eng,255,0>; the book between the table an the box
+[ਤੋਂ ਬਿਨਾਂ]{}"" (LEX=P,POS=PRE,rel=man,att=@without)<eng,255,0>; the book without pictures
+[ਵੱਡੀਆਂ]{}"large"(LEX=J,POS=ADJ)<eng,0,0>; six large books
+[ਉਪਲਬਧ]{}"available"(LEX=J,POS=ADJ)<eng,0,0>; all the books available
+[ਆਖਰੀ]{}"last"(LEX=J,POS=ADJ)<eng,0,0>; my last two books
+[ਦੂਜੀਆਂ]{}"" (LEX=D,POS=DEM,att=@other)<eng,255,0>; other books
+[ਵਾਕਈ]{}"really"(LEX=A,POS=SAV)<eng,0,0>; a really beautiful car
+[ਸਭ ਤੋ ਜਿਆਦਾ]{}""(LEX=A,POS=SAV,att=@most)<eng,255,0>; most books
+[ਸਭ ਤੋ ਘਟ]{}"" (LEX=A,POS=SAV,att=@least)<eng,255,0>; the least expensive car
+[ਓੱਹ]{}"00.@3.@male" (LEX=R,POS=PPR,CAS=NOM,PER=3PS)<eng,255,0>; he lovers her
+[ਸਕਦਾ ਹੈ]{}"" (LEX=V,POS=MOV,att=@ability)<eng,255,0>;
+[ਸ਼ਾਇਦ]{}"" (LEX=V,POS=AUX,POS=MOV,att=@possibility)<eng,255,0>;
+[ਪੰਦਰਾ]{}"15"(LEX=U,POS=CDN,NUM=PLR,DOUBLE)<eng,0,0>;
+[ਤਿਨ]{}"3"(LEX=U,POS=CDN,DIGIT,NUM=PLR)<eng,0,0>;
+[ਅਠ]{}"8"(LEX=U,POS=CDN,DIGIT,NUM=PLR)<eng,0,0>;
+[ਬਹੁਤੀਆਂ]{}""(LEX=D,POS=DEM,att=@multal)<eng,255,0>;
+[ਵੱਡੀ]{}"big"(LEX=J,POS=ADJ)<eng,0,0>;
+[ਸਕੇਗਾ]{}""(LEX=V,POS=MOV,att=@ability;@future)<eng,255,0>;
+[ਉਸ]{}"00.@3.@female" (LEX=R,POS=PPR)<eng,255,0>; hers is beautiful
+#[ਓ]{}""(LEX=R,POS=PPR,CAS=NOM,CAS=OBL,PER=3PS)<eng,255,0>;
+[ਓ]{}"00.@distal"(LEX=R,POS=DEP,NUM=SNG)<eng,255,0>; that is beautiful
+[ਹਨ]{}"00"(LEX=V,POS=COP,PER=3PS,ATE=PRS,att=@present,PLR)<eng,0,0>;
+[ਇਹ]{}"00.@proximal"(LEX=R,POS=DEP,NUM=SNG)<eng,255,0>;
+[ਅੱਜ]{}"today"(LEX=A,POS=AAV,+rel=tim)<eng,0,0>;
+[ਆ ਰਿਹਾ]{}"arrive"(LEX=V,POS=VER,TRA=NTST,VBL=GER)<eng,0,0>;
+[ਆਵੇਗਾ]{}"arrive"(LEX=V,POS=VER,TRA=NTST,VBL=GER)<eng,0,0>;
+[ਇਕੱਲਾ]{}"alone"(LEX=J,POS=ADJ)<eng,0,0>;
+[ਓਹਨੇ]{}"00.@3.@male" (LEX=R,POS=PPR,CAS=NOM,PER=3PS)<eng,255,0>;
+[ਉਸਨੂ]{}"00.@3.@female" (LEX=D,POS=POD)<eng,255,0>;
+[ਰੁਚੀ]{}"interested"(LEX=J,POS=ADJ,VLUV)<eng,0,0>;
+[ਕਿਉਂ]{}"00.@wh" (LEX=R,POS=IPR,rel=rsn)<eng,255,0>;
+#[ਕਿਸਨੂੰ]{}"00.@wh" (LEX=R,POS=IPR,INTERRO)<eng,255,0>; whom did John kill?
+[ਕਿਥੇਂ]{}"00.@wh" (LEX=R,POS=IPR,INTERRO,rel=plc)<eng,255,0>; where did John kill Mary?
+[ਕਿਵੇਂ]{}"00.@wh" (LEX=R,POS=IPR,INTERRO,rel=man)<eng,255,0>; how did John kill Mary?
+[ਕਦੋਂ]{}"00.@wh" (LEX=R,POS=IPR,INTERRO,rel=tim)<eng,255,0>; how did John kill Mary?
+[ਕਿਹਾ]{}"say"(LEX=V,POS=VER,TRA=TSTD,ATE=PAS,VBL=PTP)<eng,0,0>; he said that Peter killed Mary
+[ਜਦੋਂ]{}""(LEX=C,POS=SCJ,POS=AVR,rel=tim)<eng,255,0>; John killed Mary when Peter arrived<eng,0,0>;
+[ਕੀ]{}""(LEX=D,POS=DEM,att=@wh)<eng,255,0>; what book
+[ਕੀ]{}""(LEX=D,POS=DEM,att=@wh,INTERRO,VAB)<eng,255,0>; what book
+[ਉਹਦੀ]{}"00.@3.@male" (LEX=R,POS=SPR)<eng,255,0>; his book
+[ਉਸਦੀ]{}"00.@3.@female" (LEX=R,POS=SPR)<eng,255,0>; his is beautiful
+[ਉਹਨਾਂ ਦੀ]{}"00.@3.@pl" (LEX=R,POS=SPR)<eng,255,0>; theirs is beautiful
+[ਵਿਚ]{}""(LEX=P,POS=PST,rel=plc)<eng,0,0>; VAIBHAV
+[ਹੋਵੇਗਾ]{}""(LEX=V,POS=AUX,TRA=NTRA,att=@future)<eng,0,0>;
+[ਉਹੀ]{}""(LEX=D,POS=DEM,NUM=SNG,att=@same)<eng,0,0>;
+[ਸਭ ਤੋ ਵੱਧ]{}""(LEX=A,POS=SAV,att=@most)<eng,255,0>; most books
+[ਸਭ ਤੋ ਘੱਟ]{}""(LEX=A,POS=SAV,att=@least)<eng,255,0>; the least expensive car
+[ਹੀ ਵਾਲਾ ਹੈ]{}""(LEX=V,POS=MOV,att=@imminent)<eng,255,0>;
+[ਉਸਨੂੰ]{}"00.@3.@male" (LEX=R,POS=PPR,CAS=NOM,PER=3PS)<eng,255,0>; FOR HARINDER LAST
+[ਪਵੇਗਾ]{}"" (LEX=V,POS=AUX,POS=MOV,ATE=PRS,att=@obligation;@present)<eng,255,0>;
+[ਇਸ ਦੀ]{}"00.@3" (LEX=D,POS=POD)<eng,255,0>;
+[ਉਸ ਦੀਆਂ]{}"00.@3.@male" (LEX=D,POS=POD)<eng,255,0>;
+#[ਦੇ]{}""(LEX=P,POS=PRE,rel=tim,att=@at)<eng,255,0>; the book at the table
+[ਕਿ]{}""(LEX=C,POS=CMR,rel=obj)<eng,0,0>;
+[ਨੜਿਨਵੇਂ]{}"99"(LEX=U,POS=CDN,DOUBLE,NUM=PLR)<eng,0,0>;
+[ਪਚਵੰਜਾ]{}"55"(LEX=U,POS=CDN,NUM=PLR,DOUBLE)<eng,0,0>;
+[ਤੁਹਾਡੀ]{}"00.@2" (LEX=R,POS=SPR)<eng,255,0>; yours is beautiful
+[ਹੁੰਦਾ ਸੀ]{}""(LEX=V,POS=COP,TRA=TSTD,ATE=PAS,att=@habitual)<eng,0,0>;
+[ਚੁਰੰਜਾ]{}"54"(LEX=U,POS=CDN,NUM=PLR,DOUBLE)<eng,0,0>;
+[ਦੇ]{}""(LEX=P,POS=PST,NUM=PLR,rel=mod)<pun,0,0>;ਇਕ ਦਿਨ ਖ਼ਰਗੋਸ਼ ਨੇ ਕੱਛੂਕੁੰਮੇ ਦੇ ਛੋਟੇ ਪੈਰਾਂ ਅਤੇ ਹੌਲੀ ਚਾਲ ਦਾ ਮਜ਼ਾਕ ਉਡਾਇਆ।
+[ਪੈਰ]{}"foot"(LEX=N,POS=NOU,NUM=SNG)<eng,0,0>;

@@ -1,0 +1,76 @@
+; RuleSet:(TD)olympiad3
+; User:Parteek Kumar (parteek)
+; Date:02.43.2017 at 12:43:39
+
+; "olympiad3"
+; TD
+(R,^SPR)(BLK)({[ਕਿਤਾਬ]|[ਕਿਤਾਬਾਂ]})({STAIL|CTAIL})=0; ^SPR is for 49
+#(VLUV)({mod|pos})=0; problem is that despite of this rule 'cnt' waali dict entry iz nt bng picked..its tkng 'mod' waali dict entry and joining this drule with every appropriate trule being fired
+#([ਅਤੀਤ])(plc)=0; ~lar prob as above
+({[ਲਾਇਬ੍ਰੇਰੀ]|[ਜਾਨ]})(BLK)({mod|cnt|fld|plc},^[ਦੇ ਖਿਲਾਫ],%b)=0; jaun di kitaab; 218
+({[ਹਿਸਾਬ]|[ਲਾਇਬ੍ਰੇਰੀ]})(BLK)({mod|pos|cnt})=0;
+([ਜਾਨ])(BLK)(pof,%b)=0; jaun di kitaab
+([ਲਾਇਬ੍ਰੇਰੀ])(BLK)(plc)=0;
+([ਪੱਥਰ])(BLK)(plc)=0;
+([ਅਤੀਤ])(BLK)({plc|mat|rsn})=0;
+([ਗਰਮੀ])(BLK)({plc|mat|src})=0;
+([ਸੋਮਵਾਰ])(BLK)({plc|obj})=0;
+([ਦੁਪਹਿਰ])(BLK)({plc|mat})=0;
+(plc)(BLK)({[ਆਉਣ]|[ਡਰਾਮੇ]|[ਅਨੁਵਾਦ]})=0;
+({[ਦਿਆਲਤਾ]|[ਸ਼ੈੰਪੂ]})(BLK)(D)=0;
+({pos|mod|fld|pof})(BLK)({[ਤਬਦੀਲੀ]|[ਖੁਸ਼ਬੂ]})=0;
+([ਪਿਆਰ])(BLK)(D)=0; pyaar da vichaar
+(ben)(BLK)([ਪਿਆਰ])=0;
+({ben|cnt})(BLK)([ਖ਼ਤਰਾ])=0;
+({mod|cnt|fld|pof|pos})(BLK)([ਯਾਤਰਾ])=0;
+([ਸਮਾਰੋਹ])(BLK)({plc|mat|tim|mod})=0;
+([ਰੇਸ਼ਮ])(BLK)({mod|cnt|pos|fld|pof|fld|gol})=0;
+([ਕੱਚ])(BLK)({D|cnt})=0;
+([ਭਾਰਤ])(BLK)({mod|cnt|fld|pof|gol|mat|pos|rsn|res|plc})=0; oly3-173
+([ਕਰਜ])(BLK)({D|cnt|mat})=0;
+([ਕੋਟ])(BLK)({mod|cnt|fld|gol|mat|obj|pos})=0;
+([ਦਸਤਾਵੇਜ਼])(BLK)({mod|cnt|fld|gol|mat|obj|pos})=0;
+([ਪਿਕਨਿਕ])(BLK)({ben|cnt|exp})=0;
+(CURRENCY)(BLK)(U)(BLK)({D|cnt|mat|obj})=0;
+([ਟੀਬੀ])(BLK)({cnt|mod|pos|mat|fld|pof|gol|obj})=0;
+({cnt|mod|pos|mat|fld|pof|gol|obj|rsn|per|nam|V})(BLK)([ਉਸਾਰੀ])=0;
+({D|R})(BLK)([ਸੋਹਣਾ])=0;
+({cnt|mat|obj|per})(BLK)([ਵਫ਼ਾਦਾਰ])=0;
+([ਕਰਨ])(BLK)({ben|cnt|exp})=0;
+(J)(BLK)([ਮੁਸ਼ਕਿਲ])=0;
+(@extra)(BLK)([ਸੋਹਣੀ])(BLK)([ਗੱਡੀ])=0;
+([ਜਾਨ])(BLK)({mod|cnt|fld|pof|gol|mat|rsn|res|mod|obj},^[ਦੇ ਖਿਲਾਫ],%b)=0; jaun di kitaab
+({SHEAD|CHEAD})(PPN)(BLK)(plc)(BLK)(PPN)=0; rome to pairis nu relgaddi
+({SHEAD|CHEAD})(PPN)(BLK)({src|gol|via})(BLK)(PPN)(BLK)({plc|tim|obj})=0;
+({SHEAD|CHEAD})(PPN)(BLK)({src|gol|via})(BLK)(PPN)(BLK)({src|gol|via})(BLK)(PPN)(BLK)(plc)=0;
+(@less)(BLK)([ਮਹਿੰਗੀ])(BLK)(N,NOU)=0; ghatt mehngi kitaab
+(@multal)(BLK)([ਉਪਲਬਧ])(BLK)(N,NOU)=0; saariyan uplabadh kitabaan
+(@on)(BLK)([ਪੈਰਿਸ])(BLK)([ਬਾਰੇ])(BLK)([ਕਿਤਾਬ])=0;
+(@on)(BLK)([ਤਸਵੀਰਾਂ])(BLK)([ਤੋਂ ਬਿਨਾਂ])=0;
+(@on)(BLK)([ਪੈਰਿਸ])(BLK)([ਸ਼ਹਿਰ])(BLK)([ਬਾਰੇ])=0;
+(@every)(BLK)([ਕਿਤਾਬ])=0;  ਹਰ ਕਿਤਾਬ Q16
+(@plus)(BLK)([ਪਾਣੀ])({STAIL|CTAIL})=0;
+([ਉਸਦੀਆਂ])(BLK)(@plus)(BLK)(N,NOU)=0; usdiyan bhut kitabaan OLY3-64
+([ਇੱਕ])(BLK)([ਬਕਸੇ])(BLK)({@on|@top,@contact})(BLK)([ਇੱਕ])(BLK)([ਕਿਤਾਬ])=0; OLYM3-92
+([ਬਕਸਿਆਂ])(BLK)(^att)(BLK)([ਕਿਤਾਬ])=0; OLY3-93
+([ਬਕਸੇ])(BLK)(@through)(BLK)([ਕਿਤਾਬ])=0; OLY3-107
+({[ਪੈਰਿਸ]|[ਪੇਰੀਸ]})(BLK)({ben|cnt|exp|pur})(BLK)([ਇੱਕ])(BLK)([ਰੇਲਗੱਡੀ])=0;OLY3-115
+([ਅੰਗਰੇਜ਼ੀ])(BLK)({rel})(BLK)([ਇੱਕ])(BLK)({[ਕਿਤਾਬ]})=0;OLY3-126
+([ਪਿਆਰ])(BLK)({mod|fld|pof|gol|mat|res|rsn|obj|pos})(BLK)([ਇੱਕ])(BLK)({[ਕਿਤਾਬ]})=0;OLY3-129
+([ਪ੍ਰਾਗ])(BLK)({cnt|mat|obj|per|gol})(BLK)([ਸ਼ਹਿਰ])=0; olyp3-171 praag da shehar
+([ਦਫ਼ਤਰ])(BLK)({mod|cnt|fld|pof|gol|mat|rsn|res|pos|mod|obj})=0;
+(D)(BLK)([ਮਹਿੰਗੀ])(BLK)({[ਕਾਰ]|[ਗੱਡੀ]})=0; olym3-214
+([ਇੱਕ])(BLK)([ਬਕਸੇ])(BLK)(@through)(BLK)([ਇੱਕ])(BLK)([ਕਿਤਾਬ])=0; oly3-107
+([ਗਰਮੀ])(BLK)({src|tim},[ਤੋ])(BLK)([ਕੁੱਝ])(BLK)([ਦਿਨ])=0; oly3-147
+([ਜਾਨ])(BLK)({per|nam},[ਦਾ])(BLK)([ਆਗਮਨ])=0; oly3-151
+([ਸਥਾਨ])(BLK)({plc|mat|tim|lpl|@in},[ਵਿੱਚ])(BLK)([ਬਦਲਾਵ])=0; oly3-156
+([ਪਿਆਰ])(BLK)({V|plc},[ਦੇ])(BLK)([ਵਿਚਾਰ])=0; oly3-157
+([ਪੱਥਰ])(BLK)({mod|cnt|fld|pof|gol|rsn|res|plc|pos|obj},[ਦੀ])(BLK)([ਦੀਵਾਰਾਂ])=0; oly3-166
+([ਕਸ਼ਏ ਰੋਗ])(BLK)(plc)(BLK)([ਮੌਤ])=0; oly3-189
+([ਬੋਲੀ])(BLK)(mod)(BLK)([ਹੌਲੀ])=0;
+([ਰਾਨੀ])(BLK)({mod|cnt|fld|pof})(BLK)([ਵਫ਼ਾਦਾਰ])=0; oly3-208
+(D,QUA,@minus)(BLK)([ਮਹਿੰਗੀ])(BLK)([ਕਿਤਾਬ])=0; oly3-234
+({SHEAD|CHEAD})(@paucal,[ਕੁਝ])(BLK)([ਕਿਤਾਬਾਂ])({CTAIL|STAIL})=0;oly3-34
+(cnt)(BLK)([ਡਰਾਮੇ])=0;
+({SHEAD|CHEAD})([ਇੱਕ],@indef)(BLK)([ਕਿਤਾਬ])({STAIL|CTAIL})=0; ikk kitaab
+("b")("c")=0;
